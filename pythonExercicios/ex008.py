@@ -1,0 +1,2 @@
+n1 = float(input('Digite um valor em metros:'))
+print(f'Esse valor em milimetros é:{n1*1000} \nem centímetros é:{n1*100}\nem Decímetro é:{n1*10}\nem Decâmetro é:{n1/10}\nem Hectômetro é:{n1/100}\nem quilômetros é:{n1/1000}')
