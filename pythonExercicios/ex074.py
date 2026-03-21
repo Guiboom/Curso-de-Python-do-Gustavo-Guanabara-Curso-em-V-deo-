@@ -1,12 +1,18 @@
-import random 
-n=5
-nums = []
+# Importa o módulo random e cria uma tupla
+from random import randint
 
-for _ in range(n):
-    nums.append(random.randint(1, 10))
+num = (
+    (randint(1, 10)),
+    (randint(1, 10)),
+    (randint(1, 10)),
+    (randint(1, 10)),
+    (randint(1, 10)),
+)
 
-tupla1 = tuple(nums)
-print(f'Listagem de números: {tupla1}')
-print(f'Em ordem: {sorted(tupla1)}')
-print(f'Menor:{sorted(tupla1)[0]}')
-print(f'Maior:{sorted(tupla1)[-1]}')
+# Mostra os valores de 4 formas
+print("Os valores sorteados foram: ", end="")
+for n in num:
+    print(f"{n} ", end="")
+print(f"\nEm ordem: {sorted(num)}")
+print(f"Maior:{max(num)}")
+print(f"Menor:{min(num)}")
