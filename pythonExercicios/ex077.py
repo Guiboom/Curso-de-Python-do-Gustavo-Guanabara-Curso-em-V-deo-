@@ -32,3 +32,4 @@ for palavra in palavras:
             # Ele dá um print colocando as vogais uma ao lado da outra com espaço entre elas
             print(letra, end=' ')
     print()
+    
