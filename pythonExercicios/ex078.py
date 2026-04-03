@@ -5,8 +5,7 @@ posicoes_menores = []
 
 #Pede para o usuario digitar 5 vezes alguns números adicionandos a um lista
 for i in range(5):
-    num = int(input('Digite um número: '))
-    lista.append(num)
+    lista.append(int(input('Digite um número: ')))
     
 # Define o maior e menor número
 maior_numero = max(lista)

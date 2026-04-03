@@ -22,7 +22,7 @@ while True:
 
     # Lida com erros de usuário
     except:
-        print("Digite um valor inteiro ou resposta válida!")
+        print("Digite um valor inteiro ou resposta válida(pare)!")
 
 # Cria uma lista ordenada de forma decrescente
 numeros_orde_reve = sorted(numeros, reverse=True)
