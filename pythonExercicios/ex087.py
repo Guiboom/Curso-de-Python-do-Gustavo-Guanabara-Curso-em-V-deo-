@@ -7,14 +7,17 @@ for i in range(3):
 soma_pares=0
 soma3col=0
 
+#Soma os números pares
 for i in números:
     for v in i:
         if v % 2 == 0:
             soma_pares+=v
 
+#Soma os valores da 3 coluna
 for linha in números:
     soma3col += linha[2]
 
+#Verifica o maior valor da segunda linha
 maior2lin = números[1][0]
 for v in números[1]:
     if v > maior2lin:
