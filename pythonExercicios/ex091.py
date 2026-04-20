@@ -3,17 +3,19 @@ from operator import itemgetter
 
 jogadores = dict()
 
-for j in range(4):
-    jogadores[f'jogador{j+1}'] = random.randint(1,6)
+for i in range(4):
+    jogadores[f'jogador{+i+1}'] = random.randint(1,6)
 
-print("-"*30)
+print('-'*30)
 
-for k, v in jogadores.items():
-    print(f'O {k} tirou {v}')
+for nomes,numero in jogadores.items():
+    print(f'O {nomes} tirou {numero}')
 
-print("-"*30)
+print('-'*30)
 
-jogadores_ordenados = sorted(jogadores.items(), key=itemgetter(1), reverse=True)
+jogadores_ordenados = dict(sorted(jogadores.items(), key=itemgetter(1), reverse=True))
 
-for i, v in enumerate(jogadores_ordenados):
-    print(f'{i+1}º lugar: {v[0]} com {v[1]}')
+for colocado,(nomes,numero) in enumerate(jogadores_ordenados.items()):
+    print(f'{colocado+1}° lugar: {nomes} com {numero}')
+
+print('-'*30)
