@@ -18,4 +18,4 @@ jogadores_ordenados = dict(sorted(jogadores.items(), key=itemgetter(1), reverse=
 for colocado,(nomes,numero) in enumerate(jogadores_ordenados.items()):
     print(f'{colocado+1}° lugar: {nomes} com {numero}')
 
-print('-'*30)
+print('-'*30) 
