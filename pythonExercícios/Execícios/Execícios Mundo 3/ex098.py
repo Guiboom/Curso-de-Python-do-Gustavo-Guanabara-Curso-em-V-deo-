@@ -3,16 +3,29 @@ import time
 def contador(inicio,fim,passo):
     passo = abs(passo)
     num = inicio
+
+    if passo == 0:
+        passo = 1
+
     if inicio<fim:
         print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
-        while num < fim+passo:
+        while num <= fim:
             print(num,end=' ',flush=True)
             num+=passo
             time.sleep(0.5)
         print('FIM')
+
     if inicio>fim:
         print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
-        while num > fim-passo:
+        while num >= fim:
+            print(num,end=' ',flush=True)
+            num-=passo
+            time.sleep(0.5)
+        print('FIM')
+
+    if inicio==fim:
+        print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')
+        while num >= fim-passo:
             print(num,end=' ',flush=True)
             num-=passo
             time.sleep(0.5)
