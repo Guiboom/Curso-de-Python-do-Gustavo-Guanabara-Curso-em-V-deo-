@@ -1,0 +1,2623 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "vlc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "vlc",
+        "description": "vlc",
+        "detail": "vlc",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "itemgetter",
+        "importPath": "operator",
+        "description": "operator",
+        "isExtraImport": true,
+        "detail": "operator",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "peekOfCode": "n2 = int(input('Digite um valor: '))\nprint(\"O tipo de variavel do 1° numero\")\nprint(type(n1))\nprint(\"O tipo de variavel do 2° numero\")\nprint(type(n2)) \"\"\"\nn3 = int(input('Digite um valor: '))\nn4 = int(input('Digite um valor: '))\ns = n3 + n4\n#print('A soma entre ',n3,' e ',n4,' vale: ',s)\nprint('A soma entre {} e {} vale {}'.format(n3,n4,s))",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "peekOfCode": "n3 = int(input('Digite um valor: '))\nn4 = int(input('Digite um valor: '))\ns = n3 + n4\n#print('A soma entre ',n3,' e ',n4,' vale: ',s)\nprint('A soma entre {} e {} vale {}'.format(n3,n4,s))",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "peekOfCode": "n4 = int(input('Digite um valor: '))\ns = n3 + n4\n#print('A soma entre ',n3,' e ',n4,' vale: ',s)\nprint('A soma entre {} e {} vale {}'.format(n3,n4,s))",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "peekOfCode": "s = n3 + n4\n#print('A soma entre ',n3,' e ',n4,' vale: ',s)\nprint('A soma entre {} e {} vale {}'.format(n3,n4,s))",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula06a",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula06b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula06b",
+        "peekOfCode": "n = input('Digite algo: ')\nprint(n.isalnum())\n#varios testes de tipo print(n.is...())",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula06b",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula07",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula07",
+        "peekOfCode": "nome = input('Qual é o seu nome?: ')\nprint(f'Prazer em te conhecer {nome}')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula07",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula07b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula07b",
+        "peekOfCode": "n1 = int(input('Um valor:'))\nn2 = int(input('Outro valor:'))\ns= n1+n2\nm= n1*n2\nd= n1/n2\ndi= n1//n2\ne= n1**n2\nprint(f'A soma é:{s},\\no produto é:{m},\\ne a divisão é:{d}')\nprint(f'Divisão inteira {di} e potencia {e}')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula07b",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula07b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula07b",
+        "peekOfCode": "n2 = int(input('Outro valor:'))\ns= n1+n2\nm= n1*n2\nd= n1/n2\ndi= n1//n2\ne= n1**n2\nprint(f'A soma é:{s},\\no produto é:{m},\\ne a divisão é:{d}')\nprint(f'Divisão inteira {di} e potencia {e}')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula07b",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula08",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula08",
+        "peekOfCode": "num = float(input('Digite um número: '))\nraiz = math.sqrt(num)\nprint(f'A raiz de {num} é igual a {raiz :.3f}')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula08",
+        "documentation": {}
+    },
+    {
+        "label": "raiz",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula08",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula08",
+        "peekOfCode": "raiz = math.sqrt(num)\nprint(f'A raiz de {num} é igual a {raiz :.3f}')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula08",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula08b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula08b",
+        "peekOfCode": "num = random.randint(1,10)\nprint(num)",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula08b",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "peekOfCode": "frase = 'Curso em Vídeo Python'\nprint(frase[:5])\nprint(frase[5:])\nprint(frase[::2])\nprint(frase.count('o'))\nprint(frase.count('O'))\nprint(frase.replace('Python','Android'))#substitui mais n muda\nprint(frase)\nfrase = frase.replace('Python','Android')#muda\ndividido = frase.split",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "peekOfCode": "frase = frase.replace('Python','Android')#muda\ndividido = frase.split\nprint(dividido)\nprint(\"\"\"Super Mario é uma série de jogos eletrônicos \n      de plataforma, criada pela Nintendo, baseada e \n      estrelada pelo encanador fictício Mario. \n      Alternativamente chamada de série Super Mario Bros. \n      ou simplesmente série Mario, é a série central da ampla \n      franquia Mario.\"\"\")",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "documentation": {}
+    },
+    {
+        "label": "dividido",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "peekOfCode": "dividido = frase.split\nprint(dividido)\nprint(\"\"\"Super Mario é uma série de jogos eletrônicos \n      de plataforma, criada pela Nintendo, baseada e \n      estrelada pelo encanador fictício Mario. \n      Alternativamente chamada de série Super Mario Bros. \n      ou simplesmente série Mario, é a série central da ampla \n      franquia Mario.\"\"\")",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula09",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula10",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula10",
+        "peekOfCode": "nome = str(input('Qual é o seu nome: '))\nif nome == 'Gustavo':\n    print('Que nome lindo vc tem!')\nelse:\n    print('Seu nome é tão normal!')\nprint(f'Bom dia, {nome}!')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula10",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "peekOfCode": "n1 = float(input(\"Digite a primeira nota: \"))\nn2 = float(input(\"Digite a segunda nota: \"))\nm = (n1+n2)/2\nprint(f'A suas média foi:{m}')\nif m > 10 or m<0:\n    print('Digite um valor valido')\nelif m >6:\n    print('Sua media foi boa! Parabéns!')\nelse:\n    print('Sua média foi ruim! Estude mais!')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "peekOfCode": "n2 = float(input(\"Digite a segunda nota: \"))\nm = (n1+n2)/2\nprint(f'A suas média foi:{m}')\nif m > 10 or m<0:\n    print('Digite um valor valido')\nelif m >6:\n    print('Sua media foi boa! Parabéns!')\nelse:\n    print('Sua média foi ruim! Estude mais!')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "peekOfCode": "m = (n1+n2)/2\nprint(f'A suas média foi:{m}')\nif m > 10 or m<0:\n    print('Digite um valor valido')\nelif m >6:\n    print('Sua media foi boa! Parabéns!')\nelse:\n    print('Sua média foi ruim! Estude mais!')",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula10b",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula11",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula11",
+        "peekOfCode": "nome = 'Gustavo'\nprint(f'Olá! Muito prazer em te conhecer, {'\\033[4;34m'}{nome}{'\\033[m'}!!!')\ncores = {'limpa':'\\033 [m',\n        'azul':'\\033 [34m',\n        'amarelo':'\\033 [33m',\n        'pretoebranco':'\\033 [7;30m'}",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula11",
+        "documentation": {}
+    },
+    {
+        "label": "cores",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.aula11",
+        "description": "pythonExercícios.Aulas.Mundo 1.aula11",
+        "peekOfCode": "cores = {'limpa':'\\033 [m',\n        'azul':'\\033 [34m',\n        'amarelo':'\\033 [33m',\n        'pretoebranco':'\\033 [7;30m'}",
+        "detail": "pythonExercícios.Aulas.Mundo 1.aula11",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "description": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "peekOfCode": "n = float(input('Digite um valor: '))\nn1 = n\nn2 = n\nn3 = n\nprint(n)\nprint(type(n))\nn1=int(n1)\nprint(n1)\nprint(type(n1))\nn2=str(n2)",
+        "detail": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "description": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "peekOfCode": "n1 = n\nn2 = n\nn3 = n\nprint(n)\nprint(type(n))\nn1=int(n1)\nprint(n1)\nprint(type(n1))\nn2=str(n2)\nprint(n2)",
+        "detail": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "description": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "peekOfCode": "n2 = n\nn3 = n\nprint(n)\nprint(type(n))\nn1=int(n1)\nprint(n1)\nprint(type(n1))\nn2=str(n2)\nprint(n2)\nprint(type(n2))",
+        "detail": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "description": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "peekOfCode": "n3 = n\nprint(n)\nprint(type(n))\nn1=int(n1)\nprint(n1)\nprint(type(n1))\nn2=str(n2)\nprint(n2)\nprint(type(n2))\nn3=bool(n3)",
+        "detail": "pythonExercícios.Aulas.Mundo 1.exvariaveis",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula12",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula12",
+        "peekOfCode": "nome = input('Qual é o seu nome?: ')\nif nome == 'Gustavo':\n    print('Que nome bonito!')\nelif nome == 'Pedro' or nome == 'Maria' or nome == 'Paulo':\n    print('Seu nome é bem popular no Brasil.')\nelif nome in 'Ana Claudia Jessica Juliana':\n    print('Belo nome feminino!')\nelse:\n    print('Seu nome é bem normal!')\nprint(f'Tenha um bom dia, {nome}')",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula12",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "peekOfCode": "n = int(input('Digite um numero: '))\n\"\"\" \"\"\"\nfor c in range (0, n+1):\n    print(c)\nprint('fim')\"\"\"\n\"\"\"i = int(input('inicio: '))\nf = int(input('final: '))\np = int(input('passo: '))\nfor c in range(i, f+1, p):\n    print(c)",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"i",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "peekOfCode": "\"\"\"i = int(input('inicio: '))\nf = int(input('final: '))\np = int(input('passo: '))\nfor c in range(i, f+1, p):\n    print(c)\nprint('fim')\"\"\"\n\"\"\"for c in range(0,4):\n    n = int(input('Digite um valor: '))\nprint('fim')\"\"\"\ns = 0",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "peekOfCode": "f = int(input('final: '))\np = int(input('passo: '))\nfor c in range(i, f+1, p):\n    print(c)\nprint('fim')\"\"\"\n\"\"\"for c in range(0,4):\n    n = int(input('Digite um valor: '))\nprint('fim')\"\"\"\ns = 0\nfor c in range(0,4):",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "peekOfCode": "p = int(input('passo: '))\nfor c in range(i, f+1, p):\n    print(c)\nprint('fim')\"\"\"\n\"\"\"for c in range(0,4):\n    n = int(input('Digite um valor: '))\nprint('fim')\"\"\"\ns = 0\nfor c in range(0,4):\n    n = int(input('Digite um valor: '))",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "peekOfCode": "s = 0\nfor c in range(0,4):\n    n = int(input('Digite um valor: '))\n    s+=n\nprint(f'soma de todos os valores: {s}')",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula13",
+        "documentation": {}
+    },
+    {
+        "label": "cont",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "peekOfCode": "cont = 1\n \"\"\"\n\"\"\" while True:\n    print(cont,'- ',end='')\n    cont+=1\nprint('Acabou') \"\"\"\n\"\"\" n=0\nwhile n != 999:\n    n = int(input('Digite um número: ')) \"\"\"\n\"\"\" n=cont=0",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "documentation": {}
+    },
+    {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "description": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "peekOfCode": "salario = 8000\nprint(f'O {nome} tem {idade} anos e ganha R${salario:.2f}.')\n \"\"\"",
+        "detail": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "documentation": {}
+    },
+    {
+        "label": "lanche",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "peekOfCode": "lanche = () tupla\nlanche = [] lista\nlanche = {} dicionario \n\"\"\"\n# lanche = 'Hamburguer','Suco','Pizza','Pudim' é igual a do parenteses a tupla \nlanche = ('Hamburguer','Suco','Pizza','Pudim','Batata Frita')\n#Tuplas são imutaveis\n# lanche[1] = 'Refrigerante' não funciona!!!\n\"\"\" print(lanche)  # 'Hamburguer','Suco','Pizza','Pudim' \nprint(lanche[1]) # Suco ",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "documentation": {}
+    },
+    {
+        "label": "lanche",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "peekOfCode": "lanche = [] lista\nlanche = {} dicionario \n\"\"\"\n# lanche = 'Hamburguer','Suco','Pizza','Pudim' é igual a do parenteses a tupla \nlanche = ('Hamburguer','Suco','Pizza','Pudim','Batata Frita')\n#Tuplas são imutaveis\n# lanche[1] = 'Refrigerante' não funciona!!!\n\"\"\" print(lanche)  # 'Hamburguer','Suco','Pizza','Pudim' \nprint(lanche[1]) # Suco \nprint(lanche[-2]) # Pizza ",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "documentation": {}
+    },
+    {
+        "label": "lanche",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "peekOfCode": "lanche = {} dicionario \n\"\"\"\n# lanche = 'Hamburguer','Suco','Pizza','Pudim' é igual a do parenteses a tupla \nlanche = ('Hamburguer','Suco','Pizza','Pudim','Batata Frita')\n#Tuplas são imutaveis\n# lanche[1] = 'Refrigerante' não funciona!!!\n\"\"\" print(lanche)  # 'Hamburguer','Suco','Pizza','Pudim' \nprint(lanche[1]) # Suco \nprint(lanche[-2]) # Pizza \nprint(lanche[1:3]) # 'Suco','Pizza' ",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "documentation": {}
+    },
+    {
+        "label": "lanche",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "peekOfCode": "lanche = ('Hamburguer','Suco','Pizza','Pudim','Batata Frita')\n#Tuplas são imutaveis\n# lanche[1] = 'Refrigerante' não funciona!!!\n\"\"\" print(lanche)  # 'Hamburguer','Suco','Pizza','Pudim' \nprint(lanche[1]) # Suco \nprint(lanche[-2]) # Pizza \nprint(lanche[1:3]) # 'Suco','Pizza' \nprint(lanche[:2]) # 'Hamburguer','Suco' \nprint(lanche[-2:]) # 'Pizza', 'Pudim'  \"\"\"\n\"\"\" for comida in lanche:",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "peekOfCode": "pessoa = ('Gustavo', 39, \"M\", 99.88) #No python pode-se ter diferentes tipos de elementos nas tuplas\nprint(pessoa)\ndel(pessoa)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula16",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "peekOfCode": "num = [2, 5, 9, 1]  # lista\n# num[2]= 3 #funciona pq é uma lista\n# num[4]=3 não funciona essa forma de adicionar numeros a lista\n# num.append(7)#essa maneira é a correta\n# num.sort()#poê em ordem\n# num.sort(reverse=True)#poê em ordem inversa\n# num.insert(2,0)#na posição 2 ele poê o 0, e os que estavam afrente da posição 1 vão pra frente\n# num.pop()#remove o valor 1(ultima posição)\n# num.pop(2)#remove o valor 0(posição 2)\nnum.insert(2,2)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "documentation": {}
+    },
+    {
+        "label": "#valores",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "peekOfCode": "#valores = []\n#for cont in range(0,5):\n#    valores.append(int(input('Digite um valor: ')))\n#for c, v in enumerate(valores):\n#    print(f'Na posição {c} encontrei o valor {v}!')\n#print('Final da lista')\na= [2,3,4,5]\nb=a\nb[2] = 8 #ele altera as duas listas\nprint(f'Lista A: {a}')",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "documentation": {}
+    },
+    {
+        "label": "b[2]",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "peekOfCode": "b[2] = 8 #ele altera as duas listas\nprint(f'Lista A: {a}')\nprint(f'Lista B: {b}')\na= [2,3,4,5]\nb=a[:] #ele cria uma cópia\nb[2] = 8 \nprint(f'Lista A: {a}')\nprint(f'Lista B: {b}')",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "documentation": {}
+    },
+    {
+        "label": "b[2]",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "peekOfCode": "b[2] = 8 \nprint(f'Lista A: {a}')\nprint(f'Lista B: {b}')",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula17",
+        "documentation": {}
+    },
+    {
+        "label": "\"\"\"teste",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "\"\"\"teste = list()\nteste.append('Gustavo')\nteste.append(40)\ngalera = list()\ngalera.append(teste) #se alterar a lista teste altera dentro da lista galera tmb\nteste[0] = 'Maria'\nteste[1] = 22\ngalera.append(teste[:]) # #se alterar a lista teste não altera dentro da lista galera pois é uma copia\nprint(galera)\n\"\"\"",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "galera",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "galera = list()\ngalera.append(teste) #se alterar a lista teste altera dentro da lista galera tmb\nteste[0] = 'Maria'\nteste[1] = 22\ngalera.append(teste[:]) # #se alterar a lista teste não altera dentro da lista galera pois é uma copia\nprint(galera)\n\"\"\"\n\"\"\" galera = [[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]\nprint(galera) #[[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]\nprint(galera[0]) #[\"João\", 19]",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "teste[0]",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "teste[0] = 'Maria'\nteste[1] = 22\ngalera.append(teste[:]) # #se alterar a lista teste não altera dentro da lista galera pois é uma copia\nprint(galera)\n\"\"\"\n\"\"\" galera = [[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]\nprint(galera) #[[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]\nprint(galera[0]) #[\"João\", 19]\nprint(galera[0][0]) #João\n \"\"\"",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "teste[1]",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "teste[1] = 22\ngalera.append(teste[:]) # #se alterar a lista teste não altera dentro da lista galera pois é uma copia\nprint(galera)\n\"\"\"\n\"\"\" galera = [[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]\nprint(galera) #[[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]\nprint(galera[0]) #[\"João\", 19]\nprint(galera[0][0]) #João\n \"\"\"\n\"\"\" galera = [[\"João\", 19], [\"Ana\", 33], [\"Joaquim\", 13], [\"Maria\", 45]]",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "dado",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "dado = list()\nfor c in range(0,3):\n    dado.append(input('Nome: '))\n    dado.append(int(input('Idade: ')))\n    galera.append(dado[:])\n    dado.clear()\nprint(galera) \"\"\"\ngalera = list()\ndado = list()\ntotmai = totmen = 0",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "galera",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "galera = list()\ndado = list()\ntotmai = totmen = 0\nfor c in range(0,3):\n    dado.append(input('Nome: '))\n    dado.append(int(input('Idade: ')))\n    galera.append(dado[:])\n    dado.clear()\nfor p in galera:\n    if p[1] >20:",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "dado",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "dado = list()\ntotmai = totmen = 0\nfor c in range(0,3):\n    dado.append(input('Nome: '))\n    dado.append(int(input('Idade: ')))\n    galera.append(dado[:])\n    dado.clear()\nfor p in galera:\n    if p[1] >20:\n        print(f\"{p[0]} é maior de idade\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "totmai",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "peekOfCode": "totmai = totmen = 0\nfor c in range(0,3):\n    dado.append(input('Nome: '))\n    dado.append(int(input('Idade: ')))\n    galera.append(dado[:])\n    dado.clear()\nfor p in galera:\n    if p[1] >20:\n        print(f\"{p[0]} é maior de idade\")\n        totmai+=1",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula18(17parte2)",
+        "documentation": {}
+    },
+    {
+        "label": "pessoas",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "pessoas = {'nome': 'Gustavo', 'sexo': 'M', 'idade': 22}\n#print(pessoas['nome'])\n#print(f'O {pessoas[\"nome\"]} tem {pessoas[\"idade\"]} anos')\n#print(pessoas.keys()) #= dict_keys(['nome', 'sexo', 'idade'])\n#print(pessoas.values()) #=dict_values(['Gustavo', 'M', 22])\n#print(pessoas.items()) #=dict_items([('nome', 'Gustavo'), ('sexo', 'M'), ('idade', 22)])\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Gustavo\n#sexo = M",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#nome = Gustavo\n#sexo = M\n#idade = 22\n#del pessoas['sexo']\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Gustavo\n#idade = 22 \n#pessoas['nome'] = 'Leandro'\n#for k, v in pessoas.items():",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#sexo",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#sexo = M\n#idade = 22\n#del pessoas['sexo']\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Gustavo\n#idade = 22 \n#pessoas['nome'] = 'Leandro'\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#idade = 22\n#del pessoas['sexo']\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Gustavo\n#idade = 22 \n#pessoas['nome'] = 'Leandro'\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Leandro",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#nome = Gustavo\n#idade = 22 \n#pessoas['nome'] = 'Leandro'\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Leandro\n#sexo = M\n#idade = 22\n#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#idade = 22 \n#pessoas['nome'] = 'Leandro'\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Leandro\n#sexo = M\n#idade = 22\n#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#pessoas['nome']",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#pessoas['nome'] = 'Leandro'\n#for k, v in pessoas.items():\n#    print(f'{k} = {v}')\n#nome = Leandro\n#sexo = M\n#idade = 22\n#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#nome = Leandro\n#sexo = M\n#idade = 22\n#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)\n#brasil.append(estado2)\n#print(estado1)\n#print(brasil[1]) ",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#sexo",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#sexo = M\n#idade = 22\n#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)\n#brasil.append(estado2)\n#print(estado1)\n#print(brasil[1]) \n#print(brasil) #2 dicionário dentro de uma lista",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#idade = 22\n#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)\n#brasil.append(estado2)\n#print(estado1)\n#print(brasil[1]) \n#print(brasil) #2 dicionário dentro de uma lista\n#print(brasil[0]['sigla'])",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#brasil",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#brasil = []\n#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)\n#brasil.append(estado2)\n#print(estado1)\n#print(brasil[1]) \n#print(brasil) #2 dicionário dentro de uma lista\n#print(brasil[0]['sigla'])\n#print(brasil[1]['sigla'])",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#estado1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#estado1 = {'uf': 'Rio de Janeiro', 'sigla': 'RJ'}\n#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)\n#brasil.append(estado2)\n#print(estado1)\n#print(brasil[1]) \n#print(brasil) #2 dicionário dentro de uma lista\n#print(brasil[0]['sigla'])\n#print(brasil[1]['sigla'])\nestado = dict()",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "#estado2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "#estado2 = {'uf': 'São paulo', 'sigla': 'SP'}\n#brasil.append(estado1)\n#brasil.append(estado2)\n#print(estado1)\n#print(brasil[1]) \n#print(brasil) #2 dicionário dentro de uma lista\n#print(brasil[0]['sigla'])\n#print(brasil[1]['sigla'])\nestado = dict()\nbrasil = list()",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "estado",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "estado = dict()\nbrasil = list()\nfor c in range(0,3):\n    estado['uf'] = str(input('Unidade Federativa: '))\n    estado['sigla'] = str(input('Sigla do Estado: '))\n    brasil.append(estado.copy()) # e tipo u=tilizar o [:] na lista\nfor e in brasil:\n    for k, v in e.items():\n        print(v, end=' ')\n    print()",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "brasil",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "peekOfCode": "brasil = list()\nfor c in range(0,3):\n    estado['uf'] = str(input('Unidade Federativa: '))\n    estado['sigla'] = str(input('Sigla do Estado: '))\n    brasil.append(estado.copy()) # e tipo u=tilizar o [:] na lista\nfor e in brasil:\n    for k, v in e.items():\n        print(v, end=' ')\n    print()",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula19",
+        "documentation": {}
+    },
+    {
+        "label": "soma",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "peekOfCode": "def soma(a, b):\n    s = a + b\n    print(s)\ndef somavarios(* núm):\n    s=0\n    for valor in núm:\n        s += valor\n    print(s)\ndef dobra(lst):\n    pos=0",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "somavarios",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "peekOfCode": "def somavarios(* núm):\n    s=0\n    for valor in núm:\n        s += valor\n    print(s)\ndef dobra(lst):\n    pos=0\n    while pos<len(lst):\n        lst[pos]*=2\n        pos+=1",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "dobra",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "peekOfCode": "def dobra(lst):\n    pos=0\n    while pos<len(lst):\n        lst[pos]*=2\n        pos+=1\nvalores=[0,1,2,3,4,5,6,7,8,9,10]\na = 4\nb = 5\ns = a + b\nprint(s)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "peekOfCode": "a = 4\nb = 5\ns = a + b\nprint(s)\nsoma(8,9)\nsoma(b=2,a=1)\nsomavarios(1,2,6,32,2,34,65,7,6)\nprint(valores)\ndobra(valores)\nprint(valores)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "peekOfCode": "b = 5\ns = a + b\nprint(s)\nsoma(8,9)\nsoma(b=2,a=1)\nsomavarios(1,2,6,32,2,34,65,7,6)\nprint(valores)\ndobra(valores)\nprint(valores)\ndobra(valores)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "peekOfCode": "s = a + b\nprint(s)\nsoma(8,9)\nsoma(b=2,a=1)\nsomavarios(1,2,6,32,2,34,65,7,6)\nprint(valores)\ndobra(valores)\nprint(valores)\ndobra(valores)\nprint(valores)",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula20",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "peekOfCode": "def contador(i,f,p):\n    \"\"\"-> Faz uma contagem a mostra na tala.\n        :param i: início da contagem\n        :param f: fim da contagem\n        :param p: passo da contagem\n        :return: sem retorno\n        \"\"\"\n    c=i\n    while c<=f:\n        print(f'{c}',end='..')",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "somar",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "peekOfCode": "def somar(a=0,b=0,c=0):#abc se torna opcional\n    s=a+b+c\n    print(f\"A soma vale {s}\")\nsomar(3,2,5)\nsomar(3,2)\nsomar(b=3,c=2)\nsomar()\n#4\ndef teste():\n    global p #quando faz isso ele consegue uma variavel de fora e altera a mesma",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "teste",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "peekOfCode": "def teste():\n    global p #quando faz isso ele consegue uma variavel de fora e altera a mesma\n    x=2\n    print(f\"Na função teste, n vale {n}\")\n    print(f\"Na função teste, x vale {x}\")\n    print(f\"Na função teste, p vale {p}\")\n#programa principal\nn=2\np=5\nprint(f\"Na função teste, n vale {n}\")#Funciona pois \"n\" existe em todo o codigo(\"Não foi criado dentro de uma função\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "somar2",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "peekOfCode": "def somar2(a=0,b=0,c=0):#abc se torna opcional\n    s=a+b+c\n    return s\nresp = somar2(3,2,5) #resp passa a ter o mesmo valor de s",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "peekOfCode": "resp = somar2(3,2,5) #resp passa a ter o mesmo valor de s",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex001",
+        "peekOfCode": "nome = input(\"Qual é o seu nome?:\")\nprint(\"É um prazer te conhecer\",nome)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex003",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex003",
+        "peekOfCode": "n1 = int(input('Digite um numero: '))\nn2 = int(input('Digite outro numero: '))\ns=n1+n2\nprint('A soma entre {} e {} será: {}'.format(n1,n2,s))",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex003",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex003",
+        "peekOfCode": "n2 = int(input('Digite outro numero: '))\ns=n1+n2\nprint('A soma entre {} e {} será: {}'.format(n1,n2,s))",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "a1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "peekOfCode": "a1 = (input('Digita alguma coisa: '))\na2 = (input('Digita alguma coisa denovo: '))\ns = a1 + a2\nprint(\"só letras maiúsculas?\",s.isupper())\nprint(\"letras e/ou números?\",s.isalnum())\nprint(\"só letras?\",s.isalpha())\nprint(\"só caracteres ASCII?\",s.isascii())\nprint(\"só números decimais (0–9)?\",s.isdecimal())\nprint(\"só dígitos numéricos?\",s.isdigit())\nprint(\"nome válido de variável?\",s.isidentifier())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "documentation": {}
+    },
+    {
+        "label": "a2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "peekOfCode": "a2 = (input('Digita alguma coisa denovo: '))\ns = a1 + a2\nprint(\"só letras maiúsculas?\",s.isupper())\nprint(\"letras e/ou números?\",s.isalnum())\nprint(\"só letras?\",s.isalpha())\nprint(\"só caracteres ASCII?\",s.isascii())\nprint(\"só números decimais (0–9)?\",s.isdecimal())\nprint(\"só dígitos numéricos?\",s.isdigit())\nprint(\"nome válido de variável?\",s.isidentifier())\nprint(\"só letras minúsculas?\",s.islower())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "peekOfCode": "s = a1 + a2\nprint(\"só letras maiúsculas?\",s.isupper())\nprint(\"letras e/ou números?\",s.isalnum())\nprint(\"só letras?\",s.isalpha())\nprint(\"só caracteres ASCII?\",s.isascii())\nprint(\"só números decimais (0–9)?\",s.isdecimal())\nprint(\"só dígitos numéricos?\",s.isdigit())\nprint(\"nome válido de variável?\",s.isidentifier())\nprint(\"só letras minúsculas?\",s.islower())\nprint(\"caracteres numéricos?\",s.isnumeric())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex004",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex005",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex005",
+        "peekOfCode": "n1 = int(input('Digite um número:'))\nprint(f'O sucessor desse numero é:{n1+1}, e o antecessor é:{n1-1}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex005",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex006",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex006",
+        "peekOfCode": "n1 = int(input('Digite um número:'))\nprint(f'o dobro do número digitado é:{n1*2}\\no triplo é:{n1*3}\\ne a raiz quadrada é:{n1**(1/2)} ')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex006",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex007",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex007",
+        "peekOfCode": "n1 = float(input('Digite uma nota:'))\nn2 = float(input('Digite outra nota:'))\nprint(f'A media das notas é:{(n1+n2)/2}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex007",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex007",
+        "peekOfCode": "n2 = float(input('Digite outra nota:'))\nprint(f'A media das notas é:{(n1+n2)/2}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex008",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex008",
+        "peekOfCode": "n1 = float(input('Digite um valor em metros:'))\nprint(f'Esse valor em milimetros é:{n1*1000} \\nem centímetros é:{n1*100}\\nem Decímetro é:{n1*10}\\nem Decâmetro é:{n1/10}\\nem Hectômetro é:{n1/100}\\nem quilômetros é:{n1/1000}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex009",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex009",
+        "peekOfCode": "n1 =  int(input('Digite um número:'))\nprint(f'aqui está a tabuada do numero digitado:')\nprint(f'{n1} x 1 = {n1}\\n{n1} x 2 = {n1*2}\\n{n1} x 3 = {n1*3}\\n{n1} x 4 = {n1*4}\\n{n1} x 5 = {n1*5}\\n{n1} x 6 = {n1*6}\\n{n1} x 7 = {n1*7}\\n{n1} x 8 = {n1*8}\\n{n1} x 9 = {n1*9}\\n{n1} x 10= {n1*10}\\n')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex009",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex010",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex010",
+        "peekOfCode": "n1 = int(input('Digite um valor em reais:'))\nprint(f'Você pode comprar {n1/3.27:.2f} dolares, considerando que o dolar vale 3,27R$')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex011",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex011",
+        "peekOfCode": "n1 = int(input('Digite a altura da parede em metros:'))\nn2 = int(input('Digite a largura da parede em metros:'))\nprint(f'A área é de {n1*n2}m², e você precisa de {(n1*n2)/2}L')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex011",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex011",
+        "peekOfCode": "n2 = int(input('Digite a largura da parede em metros:'))\nprint(f'A área é de {n1*n2}m², e você precisa de {(n1*n2)/2}L')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex012",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex012",
+        "peekOfCode": "n1 = int(input('Digite um preço:'))\nprint(f'O valor com 5% de desconto fica em:{n1-1((n1/100)*5)}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex012",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex013",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex013",
+        "peekOfCode": "n1 = int(input('Digite o seu salário:'))\nprint(f'O seu salário com 15% de aumento fica em:{((n1/100)*15)+n1}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex013",
+        "documentation": {}
+    },
+    {
+        "label": "dist",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex015",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex015",
+        "peekOfCode": "dist = float(input('Quantos Km foram percorridos com o carro?:'))\ndias = float(input('Quantos dias o carro foi alugado?:'))\nvalor= (dias*60)+(dist*0.15)\nprint(f'O valor total a pagar é de {valor}R$')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "dias",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex015",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex015",
+        "peekOfCode": "dias = float(input('Quantos dias o carro foi alugado?:'))\nvalor= (dias*60)+(dist*0.15)\nprint(f'O valor total a pagar é de {valor}R$')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex016",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex016",
+        "peekOfCode": "num = float(input('Digite um numero: '))\nnum2 = math.trunc(num)\nprint(f'O numero {num} em sua porção inteira é: {num2}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex016",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex016",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex016",
+        "peekOfCode": "num2 = math.trunc(num)\nprint(f'O numero {num} em sua porção inteira é: {num2}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex016",
+        "documentation": {}
+    },
+    {
+        "label": "catAdj",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "peekOfCode": "catAdj = float(input('Digite o comprimento do cateto adjacente: '))\ncatOpo = float(input('Digite o comprimento do cateto oposto: '))\nhipot = math.hypot(catOpo,catAdj)\nprint(f'A hipotenusa é:{hipot}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "catOpo",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "peekOfCode": "catOpo = float(input('Digite o comprimento do cateto oposto: '))\nhipot = math.hypot(catOpo,catAdj)\nprint(f'A hipotenusa é:{hipot}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "hipot",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "peekOfCode": "hipot = math.hypot(catOpo,catAdj)\nprint(f'A hipotenusa é:{hipot}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "ang",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "peekOfCode": "ang = float(input('Digite quantos graus tem o ângulo: '))\nraio = math.radians(ang)\nseno = math.sin(raio)\ncosseno = math.cos(raio)\nTangente = math.tan(raio)\nprint(f'Seno: {seno:.3f45}')\nprint(f'Cosseno: {cosseno:.3f}')\nprint(f'Tangente: {Tangente:.3f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "raio",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "peekOfCode": "raio = math.radians(ang)\nseno = math.sin(raio)\ncosseno = math.cos(raio)\nTangente = math.tan(raio)\nprint(f'Seno: {seno:.3f45}')\nprint(f'Cosseno: {cosseno:.3f}')\nprint(f'Tangente: {Tangente:.3f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "seno",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "peekOfCode": "seno = math.sin(raio)\ncosseno = math.cos(raio)\nTangente = math.tan(raio)\nprint(f'Seno: {seno:.3f45}')\nprint(f'Cosseno: {cosseno:.3f}')\nprint(f'Tangente: {Tangente:.3f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "cosseno",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "peekOfCode": "cosseno = math.cos(raio)\nTangente = math.tan(raio)\nprint(f'Seno: {seno:.3f45}')\nprint(f'Cosseno: {cosseno:.3f}')\nprint(f'Tangente: {Tangente:.3f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "Tangente",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "peekOfCode": "Tangente = math.tan(raio)\nprint(f'Seno: {seno:.3f45}')\nprint(f'Cosseno: {cosseno:.3f}')\nprint(f'Tangente: {Tangente:.3f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "alu1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "peekOfCode": "alu1 = input('Digite o nome do 1° aluno: ')\nalu2 = input('Digite o nome do 2° aluno: ')\nalu3 = input('Digite o nome do 3° aluno: ')\nalu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nselecionado = random.choice(lista)\nprint(f'O aluno escolhido foi: {selecionado}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "alu2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "peekOfCode": "alu2 = input('Digite o nome do 2° aluno: ')\nalu3 = input('Digite o nome do 3° aluno: ')\nalu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nselecionado = random.choice(lista)\nprint(f'O aluno escolhido foi: {selecionado}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "alu3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "peekOfCode": "alu3 = input('Digite o nome do 3° aluno: ')\nalu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nselecionado = random.choice(lista)\nprint(f'O aluno escolhido foi: {selecionado}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "alu4",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "peekOfCode": "alu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nselecionado = random.choice(lista)\nprint(f'O aluno escolhido foi: {selecionado}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "peekOfCode": "lista = [alu1,alu2,alu3,alu4]\nselecionado = random.choice(lista)\nprint(f'O aluno escolhido foi: {selecionado}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "selecionado",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "peekOfCode": "selecionado = random.choice(lista)\nprint(f'O aluno escolhido foi: {selecionado}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "alu1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "peekOfCode": "alu1 = input('Digite o nome do 1° aluno: ')\nalu2 = input('Digite o nome do 2° aluno: ')\nalu3 = input('Digite o nome do 3° aluno: ')\nalu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nrandom.shuffle(lista)\nprint(f'A ordem de aluno escolhido foi: {lista}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "alu2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "peekOfCode": "alu2 = input('Digite o nome do 2° aluno: ')\nalu3 = input('Digite o nome do 3° aluno: ')\nalu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nrandom.shuffle(lista)\nprint(f'A ordem de aluno escolhido foi: {lista}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "alu3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "peekOfCode": "alu3 = input('Digite o nome do 3° aluno: ')\nalu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nrandom.shuffle(lista)\nprint(f'A ordem de aluno escolhido foi: {lista}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "alu4",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "peekOfCode": "alu4 = input('Digite o nome do 4° aluno: ')\nlista = [alu1,alu2,alu3,alu4]\nrandom.shuffle(lista)\nprint(f'A ordem de aluno escolhido foi: {lista}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "peekOfCode": "lista = [alu1,alu2,alu3,alu4]\nrandom.shuffle(lista)\nprint(f'A ordem de aluno escolhido foi: {lista}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "pasta_do_script",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "peekOfCode": "pasta_do_script = os.path.dirname(os.path.abspath(__file__))\n# caminho mp3\ncaminho_mp3 = os.path.join(pasta_do_script, \"realgone.mp3\")\nprint(caminho_mp3)  #veja o caminho real\nplayer = vlc.MediaPlayer(caminho_mp3)\nplayer.audio_set_volume(150)\nplayer.play()\ntime.sleep(999999)\nplayer.stop()",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "documentation": {}
+    },
+    {
+        "label": "caminho_mp3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "peekOfCode": "caminho_mp3 = os.path.join(pasta_do_script, \"realgone.mp3\")\nprint(caminho_mp3)  #veja o caminho real\nplayer = vlc.MediaPlayer(caminho_mp3)\nplayer.audio_set_volume(150)\nplayer.play()\ntime.sleep(999999)\nplayer.stop()",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "peekOfCode": "player = vlc.MediaPlayer(caminho_mp3)\nplayer.audio_set_volume(150)\nplayer.play()\ntime.sleep(999999)\nplayer.stop()",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex021RealGone",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex022",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex022",
+        "peekOfCode": "nome = input('Digite o seu nome: ')\nprint('Maiuscula:')\nprint(nome.upper())\nprint('\\nMinuscula:')\nprint(nome.lower())\nprint('\\nQuantas letras tem sem contar os espaços:')\nprint(len(nome.replace(' ', '')))\nprint('\\nQuantas letras tem o primeiro nome:')\nprimeiroNome = nome.split()[0]\ntamanho1Nome= len(primeiroNome)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex022",
+        "documentation": {}
+    },
+    {
+        "label": "primeiroNome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex022",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex022",
+        "peekOfCode": "primeiroNome = nome.split()[0]\ntamanho1Nome= len(primeiroNome)\nprint(tamanho1Nome)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex022",
+        "documentation": {}
+    },
+    {
+        "label": "nomeCidade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex024",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex024",
+        "peekOfCode": "nomeCidade = input('Digite o nome de uma cidade: ')\nnomeCidade = nomeCidade.upper().strip()\nif nomeCidade.startswith('SANTO'):\n    print('A cidade começa com o nome santo')\nelse:\n    print('A cidade não começa com a palavra santo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex024",
+        "documentation": {}
+    },
+    {
+        "label": "nomeCidade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex024",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex024",
+        "peekOfCode": "nomeCidade = nomeCidade.upper().strip()\nif nomeCidade.startswith('SANTO'):\n    print('A cidade começa com o nome santo')\nelse:\n    print('A cidade não começa com a palavra santo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex024",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex025",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex025",
+        "peekOfCode": "nome = input('Digite o seu nome: ')\nnome = nome.upper().strip()\nif 'SILVA' in nome:\n    print('O seu nome tem a palavra silva')\nelse:\n    print('O seu nome não tem a palavra silva')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex025",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex025",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex025",
+        "peekOfCode": "nome = nome.upper().strip()\nif 'SILVA' in nome:\n    print('O seu nome tem a palavra silva')\nelse:\n    print('O seu nome não tem a palavra silva')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex025",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "peekOfCode": "nome = input('Digite o seu nome: ')\nnome = nome.upper().strip()\nvezes = nome.count('A')\nprimeiraVez = nome.find('A')+ 1# soma 1 para não ficar 0 em nomes como \"ana\"\nultimaVez = nome.rfind('A')+1\nif vezes > 0:\n    print(f'A letra \"A\" aparece {vezes} vezes no seu nome')\n    print(f'A letra \"A\" aparece pela primeira vez na posição {primeiraVez}')\n    print(f'A letra \"A\" aparece pela ultima vez na posição {ultimaVez}')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "peekOfCode": "nome = nome.upper().strip()\nvezes = nome.count('A')\nprimeiraVez = nome.find('A')+ 1# soma 1 para não ficar 0 em nomes como \"ana\"\nultimaVez = nome.rfind('A')+1\nif vezes > 0:\n    print(f'A letra \"A\" aparece {vezes} vezes no seu nome')\n    print(f'A letra \"A\" aparece pela primeira vez na posição {primeiraVez}')\n    print(f'A letra \"A\" aparece pela ultima vez na posição {ultimaVez}')\nelse:\n    print('O seu nome não aparece a letra \"A\" nenhuma vez :(')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "documentation": {}
+    },
+    {
+        "label": "vezes",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "peekOfCode": "vezes = nome.count('A')\nprimeiraVez = nome.find('A')+ 1# soma 1 para não ficar 0 em nomes como \"ana\"\nultimaVez = nome.rfind('A')+1\nif vezes > 0:\n    print(f'A letra \"A\" aparece {vezes} vezes no seu nome')\n    print(f'A letra \"A\" aparece pela primeira vez na posição {primeiraVez}')\n    print(f'A letra \"A\" aparece pela ultima vez na posição {ultimaVez}')\nelse:\n    print('O seu nome não aparece a letra \"A\" nenhuma vez :(')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "documentation": {}
+    },
+    {
+        "label": "primeiraVez",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "peekOfCode": "primeiraVez = nome.find('A')+ 1# soma 1 para não ficar 0 em nomes como \"ana\"\nultimaVez = nome.rfind('A')+1\nif vezes > 0:\n    print(f'A letra \"A\" aparece {vezes} vezes no seu nome')\n    print(f'A letra \"A\" aparece pela primeira vez na posição {primeiraVez}')\n    print(f'A letra \"A\" aparece pela ultima vez na posição {ultimaVez}')\nelse:\n    print('O seu nome não aparece a letra \"A\" nenhuma vez :(')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "documentation": {}
+    },
+    {
+        "label": "ultimaVez",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "peekOfCode": "ultimaVez = nome.rfind('A')+1\nif vezes > 0:\n    print(f'A letra \"A\" aparece {vezes} vezes no seu nome')\n    print(f'A letra \"A\" aparece pela primeira vez na posição {primeiraVez}')\n    print(f'A letra \"A\" aparece pela ultima vez na posição {ultimaVez}')\nelse:\n    print('O seu nome não aparece a letra \"A\" nenhuma vez :(')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex026",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "peekOfCode": "nome = input('Digite o seu nome completo: ')\nnome = nome.split()\nprimeira = nome[0]\nultima = nome[-1]\nprint(f'A primeira palavra do seu nome é: {primeira}, e a ultima é: {ultima}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "peekOfCode": "nome = nome.split()\nprimeira = nome[0]\nultima = nome[-1]\nprint(f'A primeira palavra do seu nome é: {primeira}, e a ultima é: {ultima}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "documentation": {}
+    },
+    {
+        "label": "primeira",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "peekOfCode": "primeira = nome[0]\nultima = nome[-1]\nprint(f'A primeira palavra do seu nome é: {primeira}, e a ultima é: {ultima}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "documentation": {}
+    },
+    {
+        "label": "ultima",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "peekOfCode": "ultima = nome[-1]\nprint(f'A primeira palavra do seu nome é: {primeira}, e a ultima é: {ultima}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex027",
+        "documentation": {}
+    },
+    {
+        "label": "chute",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex028",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex028",
+        "peekOfCode": "chute = int(input('Tente adivinhar um número de 0-5: '))\n#random=0\nnum = random.randint(0,5)\nif chute == num :\n    print('Parabens, você acertou o chute!')\nelse:\n    print(f'Você errou o chute :( o valor era {num}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex028",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex028",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex028",
+        "peekOfCode": "num = random.randint(0,5)\nif chute == num :\n    print('Parabens, você acertou o chute!')\nelse:\n    print(f'Você errou o chute :( o valor era {num}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex028",
+        "documentation": {}
+    },
+    {
+        "label": "velocidade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex029",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex029",
+        "peekOfCode": "velocidade = int(input(\"Digite a velocidade que vocè esta dirigindo em Km/h: \"))\nif velocidade> 80:\n    multa = (velocidade-80)*7\n    print(f'Você foi multado em {multa}R$!')\nelse:\n    print('Parabéns Boa viajem!')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex029",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex030",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex030",
+        "peekOfCode": "num = int(input('Digite um número inteiro: '))\nif num%2==0:\n    print('O numero é par')\nelse:\n    print('O numero é ímpar')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex030",
+        "documentation": {}
+    },
+    {
+        "label": "dist",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex031",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex031",
+        "peekOfCode": "dist = float(input('Digite a distancia da viagem em Km: '))\nif dist<=200:\n    print(f'O preço por essa viagem é de {(dist*0.50):.2f}R$')\nelse:\n    print(f'O preço por essa viagem é de {(dist*0.45):.2f}R$')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex031",
+        "documentation": {}
+    },
+    {
+        "label": "ano",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex032",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex032",
+        "peekOfCode": "ano = int(input('Digite um ano: '))\nif(ano%4==0 and ano%100 != 0 or ano % 400 == 0):\n    print(f'O ano {ano} é bissexto!')\nelse:\n    print(f'O ano {ano} não bissexto!')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex032",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "peekOfCode": "num1 = int(input('Digite um número: '))\nnum2 = int(input('Digite outro número: '))\nnum3 = int(input('Digite outro número: '))\n#Verifica qual é monor\nif num1 >=num2 and num1>=num3:\n    print(f'O numero {num1} é o maior')\nelif num2 >=num1 and num2>=num3:\n    print(f'O numero {num2} é o maior')\nelse:\n    print(f'O numero {num3} é o maior')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "peekOfCode": "num2 = int(input('Digite outro número: '))\nnum3 = int(input('Digite outro número: '))\n#Verifica qual é monor\nif num1 >=num2 and num1>=num3:\n    print(f'O numero {num1} é o maior')\nelif num2 >=num1 and num2>=num3:\n    print(f'O numero {num2} é o maior')\nelse:\n    print(f'O numero {num3} é o maior')\nif num1 <=num2 and num1<=num3:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "num3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "peekOfCode": "num3 = int(input('Digite outro número: '))\n#Verifica qual é monor\nif num1 >=num2 and num1>=num3:\n    print(f'O numero {num1} é o maior')\nelif num2 >=num1 and num2>=num3:\n    print(f'O numero {num2} é o maior')\nelse:\n    print(f'O numero {num3} é o maior')\nif num1 <=num2 and num1<=num3:\n    print(f'O numero {num1} é o menor')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex034",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex034",
+        "peekOfCode": "salario = float(input('Qual é o seu salário?: '))\nif salario>1250: \n    print(f'O seu salário atualizado é de:{((salario/100)*10+salario):.2f}')\nelse:\n    print(f'O seu salário atualizado é de:{((salario/100)*15+salario):.2f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex034",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "peekOfCode": "n1 = float(input('Digite o comprimento de uma reta:'))\nn2 = float(input('Digite o comprimento de outra reta:'))\nn3 = float(input('Digite o comprimento de outra reta:'))\nif n1+n2>n3 and n1+n3>n2 and n2+n3>n1:\n    print(\"Com esses comprimentos é posivel formar um triangulo!\")\nelse:\n    print('Não é possivel formar um triangulo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "peekOfCode": "n2 = float(input('Digite o comprimento de outra reta:'))\nn3 = float(input('Digite o comprimento de outra reta:'))\nif n1+n2>n3 and n1+n3>n2 and n2+n3>n1:\n    print(\"Com esses comprimentos é posivel formar um triangulo!\")\nelse:\n    print('Não é possivel formar um triangulo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "peekOfCode": "n3 = float(input('Digite o comprimento de outra reta:'))\nif n1+n2>n3 and n1+n3>n2 and n2+n3>n1:\n    print(\"Com esses comprimentos é posivel formar um triangulo!\")\nelse:\n    print('Não é possivel formar um triangulo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 1.ex035",
+        "documentation": {}
+    },
+    {
+        "label": "valorCasa",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "peekOfCode": "valorCasa = float(input('Qual é o seu preço da casa?: '))\nsalario = float(input('Qual é o seu salário?: '))\nanos = int(input('Em quantos anos você ira pagar?: '))\nparcelaMensal = valorCasa/(anos*12)   \nif parcelaMensal<=(salario/100)*30:\n    print(f\"Parabens, seu emprestimo foi aprovado, a parcela do pagamento mensal será {parcelaMensal:.2f}R$.\")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \nelse:\n    print(f'Empréstimo não aprovado. Sua parcela seria de R${parcelaMensal:.2f}, mas 30% do seu salário é R${salario * 0.30:.2f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "documentation": {}
+    },
+    {
+        "label": "salario",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "peekOfCode": "salario = float(input('Qual é o seu salário?: '))\nanos = int(input('Em quantos anos você ira pagar?: '))\nparcelaMensal = valorCasa/(anos*12)   \nif parcelaMensal<=(salario/100)*30:\n    print(f\"Parabens, seu emprestimo foi aprovado, a parcela do pagamento mensal será {parcelaMensal:.2f}R$.\")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \nelse:\n    print(f'Empréstimo não aprovado. Sua parcela seria de R${parcelaMensal:.2f}, mas 30% do seu salário é R${salario * 0.30:.2f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "documentation": {}
+    },
+    {
+        "label": "anos",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "peekOfCode": "anos = int(input('Em quantos anos você ira pagar?: '))\nparcelaMensal = valorCasa/(anos*12)   \nif parcelaMensal<=(salario/100)*30:\n    print(f\"Parabens, seu emprestimo foi aprovado, a parcela do pagamento mensal será {parcelaMensal:.2f}R$.\")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \nelse:\n    print(f'Empréstimo não aprovado. Sua parcela seria de R${parcelaMensal:.2f}, mas 30% do seu salário é R${salario * 0.30:.2f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "documentation": {}
+    },
+    {
+        "label": "parcelaMensal",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "peekOfCode": "parcelaMensal = valorCasa/(anos*12)   \nif parcelaMensal<=(salario/100)*30:\n    print(f\"Parabens, seu emprestimo foi aprovado, a parcela do pagamento mensal será {parcelaMensal:.2f}R$.\")                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \nelse:\n    print(f'Empréstimo não aprovado. Sua parcela seria de R${parcelaMensal:.2f}, mas 30% do seu salário é R${salario * 0.30:.2f}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex036",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "peekOfCode": "num = int(input('Digite um número inteiro: '))\nescolha = input('Você deseja converter esse numero para:\\n(1)Binario\\n(2)octal\\n(3)hexadecimal\\n:')\nescolha = escolha.strip()\nif escolha == '1':\n    print(f'O valor em binário fica em: {format(num, \"b\")}.')\nelif escolha == '2':\n    print(f'O valor em octal fica em: {oct(num)[2:]}.')\nelif escolha == '3':\n    print(f'O valor em hexadecimal fica em: {hex(num)[2:]}.')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "documentation": {}
+    },
+    {
+        "label": "escolha",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "peekOfCode": "escolha = input('Você deseja converter esse numero para:\\n(1)Binario\\n(2)octal\\n(3)hexadecimal\\n:')\nescolha = escolha.strip()\nif escolha == '1':\n    print(f'O valor em binário fica em: {format(num, \"b\")}.')\nelif escolha == '2':\n    print(f'O valor em octal fica em: {oct(num)[2:]}.')\nelif escolha == '3':\n    print(f'O valor em hexadecimal fica em: {hex(num)[2:]}.')\nelse:\n    print(\"Opção inválida, digite 1, 2 ou 3.\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "documentation": {}
+    },
+    {
+        "label": "escolha",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "peekOfCode": "escolha = escolha.strip()\nif escolha == '1':\n    print(f'O valor em binário fica em: {format(num, \"b\")}.')\nelif escolha == '2':\n    print(f'O valor em octal fica em: {oct(num)[2:]}.')\nelif escolha == '3':\n    print(f'O valor em hexadecimal fica em: {hex(num)[2:]}.')\nelse:\n    print(\"Opção inválida, digite 1, 2 ou 3.\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex037",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex038",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex038",
+        "peekOfCode": "num1 = float(input('Digite um numero: '))\nnum2 = float(input('Digite outro numero: '))\nif num1>num2:\n    print(f'O número {num1} é o maior.')\nelif num2>num1:\n    print(f'O número {num2} é o maior.')\nelse:\n    print(f'Não existe valor maior, os dois são iguais')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex038",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex038",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex038",
+        "peekOfCode": "num2 = float(input('Digite outro numero: '))\nif num1>num2:\n    print(f'O número {num1} é o maior.')\nelif num2>num1:\n    print(f'O número {num2} é o maior.')\nelse:\n    print(f'Não existe valor maior, os dois são iguais')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex038",
+        "documentation": {}
+    },
+    {
+        "label": "nascimento",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "peekOfCode": "nascimento = int(input('Digite o ano que voce nasceu: '))\nano_atual = date.today().year\nidade = ano_atual - nascimento\nprint(f'Quem nasceu em {nascimento} tem ou terá {idade} em {ano_atual}')\nif idade<18:\n    tempoFalta = 18-idade\n    print(f'Você terá que se alistar no exercito daqui a {int(tempoFalta)} anos.')\nelif idade==18:\n    print(f'Já está na hora de você se alistar no exercito.')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "documentation": {}
+    },
+    {
+        "label": "ano_atual",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "peekOfCode": "ano_atual = date.today().year\nidade = ano_atual - nascimento\nprint(f'Quem nasceu em {nascimento} tem ou terá {idade} em {ano_atual}')\nif idade<18:\n    tempoFalta = 18-idade\n    print(f'Você terá que se alistar no exercito daqui a {int(tempoFalta)} anos.')\nelif idade==18:\n    print(f'Já está na hora de você se alistar no exercito.')\nelse:\n    tempoFalta = idade-18",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "peekOfCode": "idade = ano_atual - nascimento\nprint(f'Quem nasceu em {nascimento} tem ou terá {idade} em {ano_atual}')\nif idade<18:\n    tempoFalta = 18-idade\n    print(f'Você terá que se alistar no exercito daqui a {int(tempoFalta)} anos.')\nelif idade==18:\n    print(f'Já está na hora de você se alistar no exercito.')\nelse:\n    tempoFalta = idade-18\n    print(f'Já passou {tempoFalta} do alistamento.')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex039",
+        "documentation": {}
+    },
+    {
+        "label": "nota1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "peekOfCode": "nota1 = float(input('Digite a primeira nota: '))\nnota2 = float(input('Digite a segunda nota: '))\nmedia = (nota1+nota2)/2\nprint(f'A média das notas é: {media}\\n')\nif media<5:\n    print(\"Reprovado\")\nelif media>=5 and media<7:\n    print('Recuperação')\nelse:\n    print('Aprovado')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "documentation": {}
+    },
+    {
+        "label": "nota2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "peekOfCode": "nota2 = float(input('Digite a segunda nota: '))\nmedia = (nota1+nota2)/2\nprint(f'A média das notas é: {media}\\n')\nif media<5:\n    print(\"Reprovado\")\nelif media>=5 and media<7:\n    print('Recuperação')\nelse:\n    print('Aprovado')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "documentation": {}
+    },
+    {
+        "label": "media",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "peekOfCode": "media = (nota1+nota2)/2\nprint(f'A média das notas é: {media}\\n')\nif media<5:\n    print(\"Reprovado\")\nelif media>=5 and media<7:\n    print('Recuperação')\nelse:\n    print('Aprovado')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex040",
+        "documentation": {}
+    },
+    {
+        "label": "idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex041",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex041",
+        "peekOfCode": "idade = int(input('Digite a sua idade: '))\nif idade<10:\n    print('Mirim')\nelif idade<15:\n    print('Infantil')\nelif idade<20:\n    print('Junior')\nelif idade<21:\n    print('Sênior')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex041",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "peekOfCode": "n1 = float(input('Digite o comprimento de uma reta:'))\nn2 = float(input('Digite o comprimento de outra reta:'))\nn3 = float(input('Digite o comprimento de outra reta:'))\nif n1+n2>n3 and n1+n3>n2 and n2+n3>n1:\n    print(\"Com esses comprimentos é posivel formar um triangulo!\")\n    if n1==n2 and n2==n3:\n        print('O triangulo é Equilátero.')\n    elif n1==n2 or n2==n3 or n3==n1:\n        print('O triangulo é Isóceles.')\n    else:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "peekOfCode": "n2 = float(input('Digite o comprimento de outra reta:'))\nn3 = float(input('Digite o comprimento de outra reta:'))\nif n1+n2>n3 and n1+n3>n2 and n2+n3>n1:\n    print(\"Com esses comprimentos é posivel formar um triangulo!\")\n    if n1==n2 and n2==n3:\n        print('O triangulo é Equilátero.')\n    elif n1==n2 or n2==n3 or n3==n1:\n        print('O triangulo é Isóceles.')\n    else:\n        print('O triangulo é Escaleno.')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "peekOfCode": "n3 = float(input('Digite o comprimento de outra reta:'))\nif n1+n2>n3 and n1+n3>n2 and n2+n3>n1:\n    print(\"Com esses comprimentos é posivel formar um triangulo!\")\n    if n1==n2 and n2==n3:\n        print('O triangulo é Equilátero.')\n    elif n1==n2 or n2==n3 or n3==n1:\n        print('O triangulo é Isóceles.')\n    else:\n        print('O triangulo é Escaleno.')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex042",
+        "documentation": {}
+    },
+    {
+        "label": "peso",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "peekOfCode": "peso = float(input('Digite o seu peso em Kg: '))\naltura = float(input('Digite a sua altura em Metros: '))\nimc = peso/(altura**2)\nif imc<18.5:\n    print('Abaixo do peso:')\nelif imc<25:\n    print('Peso ideal.')\nelif imc<31:\n    print('Sobrepeso.')\nelif imc<41:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "documentation": {}
+    },
+    {
+        "label": "altura",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "peekOfCode": "altura = float(input('Digite a sua altura em Metros: '))\nimc = peso/(altura**2)\nif imc<18.5:\n    print('Abaixo do peso:')\nelif imc<25:\n    print('Peso ideal.')\nelif imc<31:\n    print('Sobrepeso.')\nelif imc<41:\n    print('Obesidade.')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "documentation": {}
+    },
+    {
+        "label": "imc",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "peekOfCode": "imc = peso/(altura**2)\nif imc<18.5:\n    print('Abaixo do peso:')\nelif imc<25:\n    print('Peso ideal.')\nelif imc<31:\n    print('Sobrepeso.')\nelif imc<41:\n    print('Obesidade.')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex043",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "peekOfCode": "valor = float(input('Digite o valor do produto: '))\nforma = int(input(\n        'Qual a forma de pagamento:\\n'\n    '(1) À vista dinheiro/cheque (10% desconto)\\n'\n    '(2) À vista no cartão (5% desconto)\\n'\n    '(3) Em até 2x no cartão (sem juros)\\n'\n    '(4) Em até 3x no cartão (20% juros)\\n'\n    'Digite a opção: '\n))\nvalorFinal = valor",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "documentation": {}
+    },
+    {
+        "label": "forma",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "peekOfCode": "forma = int(input(\n        'Qual a forma de pagamento:\\n'\n    '(1) À vista dinheiro/cheque (10% desconto)\\n'\n    '(2) À vista no cartão (5% desconto)\\n'\n    '(3) Em até 2x no cartão (sem juros)\\n'\n    '(4) Em até 3x no cartão (20% juros)\\n'\n    'Digite a opção: '\n))\nvalorFinal = valor\nif forma == 1:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "documentation": {}
+    },
+    {
+        "label": "valorFinal",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "peekOfCode": "valorFinal = valor\nif forma == 1:\n    valorFinal = valor*0.9\n    print(f'O preço ficará em R${valorFinal:.2f}')\nelif forma == 2:\n    valorFinal = valor*0.95\n    print(f'O preço ficará em R${valorFinal:.2f}')\nelif forma == 3:\n    print(f'O preço total ficará em R${valorFinal:.2f}')\nelif forma == 4:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex044",
+        "documentation": {}
+    },
+    {
+        "label": "escolha",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex045",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex045",
+        "peekOfCode": "escolha = int(input(\n    'Vamos jogar Jokempô:\\n'\n    '(1)Para pedra\\n'\n    '(2)Para papel\\n'           \n    '(3)Para tesoura\\n'\n    'Digite a sua opção: '           \n))\noponente = random.randint(1,3)\nif escolha == oponente:\n    print('Empate!')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex045",
+        "documentation": {}
+    },
+    {
+        "label": "oponente",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex045",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex045",
+        "peekOfCode": "oponente = random.randint(1,3)\nif escolha == oponente:\n    print('Empate!')\nelif escolha == 1 and oponente == 3 or escolha == 2 and oponente == 1 or escolha == 3 and oponente == 2:\n    if oponente == 3:\n        print('Você Ganhou da tesoura!')\n    elif oponente == 2:\n        print('Você Ganhou da papel!')\n    else:\n        print('Você Ganhou da pedra!')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex045",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex049",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex049",
+        "peekOfCode": "num = int(input('Digite o numero da tabuada que você deseja:'))\nfor s in range(1,11):\n    print(f'{num} x {s} = {num*s}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex049",
+        "documentation": {}
+    },
+    {
+        "label": "primeiro",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex051",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex051",
+        "peekOfCode": "primeiro = int(input('Primeiro termo: '))\nrazao = int(input('Razão: '))\nfor c in range(10):\n    termo = primeiro + c * razao\n    print(termo, end='-->')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex051",
+        "documentation": {}
+    },
+    {
+        "label": "razao",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex051",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex051",
+        "peekOfCode": "razao = int(input('Razão: '))\nfor c in range(10):\n    termo = primeiro + c * razao\n    print(termo, end='-->')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex051",
+        "documentation": {}
+    },
+    {
+        "label": "falha",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex052",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex052",
+        "peekOfCode": "falha = 0\nnum = int(input('Digite um número para verificar se ele é primo: '))\nfor c in range(1,num+1):\n    if num % c == 0:\n        falha = falha + 1\n    else:\n         falha = falha\nif falha>2 or num==1:\n    print(\"O número não é primo\")\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex052",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex052",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex052",
+        "peekOfCode": "num = int(input('Digite um número para verificar se ele é primo: '))\nfor c in range(1,num+1):\n    if num % c == 0:\n        falha = falha + 1\n    else:\n         falha = falha\nif falha>2 or num==1:\n    print(\"O número não é primo\")\nelse:\n    print(\"O número é primo\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex052",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "peekOfCode": "frase = input('Digite uma frase: ')\nfrase = frase.replace(\" \",\"\").lower()\nquantidade = len(frase)\nletraFinal = -1\nfalhas=0\nfor c in range(0,quantidade):\n    if frase[c] != frase[letraFinal]:\n        falhas+=1\n    letraFinal= letraFinal-1\nif falhas>0:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "peekOfCode": "frase = frase.replace(\" \",\"\").lower()\nquantidade = len(frase)\nletraFinal = -1\nfalhas=0\nfor c in range(0,quantidade):\n    if frase[c] != frase[letraFinal]:\n        falhas+=1\n    letraFinal= letraFinal-1\nif falhas>0:\n    print('A frase não é um palíndromo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "documentation": {}
+    },
+    {
+        "label": "quantidade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "peekOfCode": "quantidade = len(frase)\nletraFinal = -1\nfalhas=0\nfor c in range(0,quantidade):\n    if frase[c] != frase[letraFinal]:\n        falhas+=1\n    letraFinal= letraFinal-1\nif falhas>0:\n    print('A frase não é um palíndromo')\nelse:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "documentation": {}
+    },
+    {
+        "label": "letraFinal",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "peekOfCode": "letraFinal = -1\nfalhas=0\nfor c in range(0,quantidade):\n    if frase[c] != frase[letraFinal]:\n        falhas+=1\n    letraFinal= letraFinal-1\nif falhas>0:\n    print('A frase não é um palíndromo')\nelse:\n    print('A frase é um palíndromo')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex053",
+        "documentation": {}
+    },
+    {
+        "label": "anoAtual",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex054",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex054",
+        "peekOfCode": "anoAtual = date.today().year\nmaiores=0\nmenores=0\nfor c in range(7):\n    aniversario = int(input(f'Digite o ano de nascimento da {c+1}ª pessoa:'))  \n    if anoAtual - aniversario>21: #ele pediu para ser 21\n        maiores+=1\n    else:\n        menores+=1\nprint(f'Desses listados,{maiores} são maiores de idade e {menores} são menores')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex054",
+        "documentation": {}
+    },
+    {
+        "label": "nomeHomenMaisVelho",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex056",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex056",
+        "peekOfCode": "nomeHomenMaisVelho = \"Nenhum nome de homen citado.\"\nfor c in range(4):\n    nome= input(f'Digite o nome da {c+1}ª pessoa: ')\n    idade = int(input(f'Digite a idade da {c+1}ª pessoa: '))\n    sexo = int(input(f'Digite o sexo da {c+1}ª pessoa (1)Homen (2)Mulher: '))\n    idadeMedia += idade\n    if idade > idadeMaior and sexo==1:\n        idadeMaior = idade\n        nomeHomenMaisVelho = nome\n    if sexo == 2 and idade<20:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex056",
+        "documentation": {}
+    },
+    {
+        "label": "sexo",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex057",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex057",
+        "peekOfCode": "sexo = input('Digite o seu sexo(M/F): ').upper()\nwhile sexo !=\"M\" and sexo !=\"F\":\n    sexo = input('Opção incorreta, Digite um valor válido(M/F): ').strip().upper()\nprint(f'Sexo {sexo} registrado.')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex057",
+        "documentation": {}
+    },
+    {
+        "label": "numR",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex058",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex058",
+        "peekOfCode": "numR = random.randint(0,10)#número aleatório de 0-10\nnumC=-1 #numero chute\nnumC=int(input('Tente acertar um número aleatório de 0-10: '))\ntentarivas=1\nwhile numC!=numR:\n    if numC < numR:\n        resposta='Mais...'\n        numC=int(input(f'{resposta} número de 0-10: '))\n    elif numC > numR:\n        resposta='Menos...'",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex058",
+        "documentation": {}
+    },
+    {
+        "label": "escolha",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "peekOfCode": "escolha = 0\nnum1 = float(input(\"Digite um número: \"))\nnum2 = float(input(\"Digite um número: \"))\nwhile escolha != 5:\n    print(\"===============================\")\n    escolha = int(\n        input(\n            \"\"\n            \"(1)Somar\\n\"\n            \"(2)Multiplicar\\n\"",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "peekOfCode": "num1 = float(input(\"Digite um número: \"))\nnum2 = float(input(\"Digite um número: \"))\nwhile escolha != 5:\n    print(\"===============================\")\n    escolha = int(\n        input(\n            \"\"\n            \"(1)Somar\\n\"\n            \"(2)Multiplicar\\n\"\n            \"(3)Maior Valor\\n\"",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "documentation": {}
+    },
+    {
+        "label": "num2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "peekOfCode": "num2 = float(input(\"Digite um número: \"))\nwhile escolha != 5:\n    print(\"===============================\")\n    escolha = int(\n        input(\n            \"\"\n            \"(1)Somar\\n\"\n            \"(2)Multiplicar\\n\"\n            \"(3)Maior Valor\\n\"\n            \"(4)Digitar novos números\\n\"",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex059",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex060",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex060",
+        "peekOfCode": "num = int(input('Digite um número: '))\nresultado=num\nprint(f'O fatorial de {num}:')\nwhile num!=0:\n    #serve para colocar o 'x' entre cada um\n    if num>1:\n        print(num,end='x')\n    else: \n        print(num,end=' ')\n    num = num-1",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex060",
+        "documentation": {}
+    },
+    {
+        "label": "primeiro",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex061",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex061",
+        "peekOfCode": "primeiro = int(input('Primeiro termo: '))\nrazao = int(input('Razão: '))\nvezes=0\nwhile vezes <10:\n    termo = primeiro + vezes * razao\n    print(termo, end='-->')\n    vezes+=1\nprint('Fim')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex061",
+        "documentation": {}
+    },
+    {
+        "label": "razao",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex061",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex061",
+        "peekOfCode": "razao = int(input('Razão: '))\nvezes=0\nwhile vezes <10:\n    termo = primeiro + vezes * razao\n    print(termo, end='-->')\n    vezes+=1\nprint('Fim')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex061",
+        "documentation": {}
+    },
+    {
+        "label": "primeiro",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex062",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex062",
+        "peekOfCode": "primeiro = int(input('Primeiro termo: '))\nrazao = int(input('Razão: '))\nrazaoFix=razao\nvezes=0\nwhile vezes <10:\n    termo = primeiro + vezes * razao\n    print(termo, end='-->')\n    vezes+=1\nalem=1\nwhile alem!=0:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex062",
+        "documentation": {}
+    },
+    {
+        "label": "razao",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex062",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex062",
+        "peekOfCode": "razao = int(input('Razão: '))\nrazaoFix=razao\nvezes=0\nwhile vezes <10:\n    termo = primeiro + vezes * razao\n    print(termo, end='-->')\n    vezes+=1\nalem=1\nwhile alem!=0:\n    alem =  int(input('\\nAlém desses, você deseja mais quantos termos? caso não queira digite(0): '))",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex062",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "peekOfCode": "num = int(input(\"Digite a quantidade de números da sequência de Fibonacci que devem aparecer: \"))\nn1 = 0\nn2 = 1\ncont = 0\nif num <= 0:\n    print(\"Por favor, entre com um número positivo.\")\nelif num == 1:\n    print(n1)\nelse:\n    print(\"Sequencia Fibonacci: \")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "peekOfCode": "n1 = 0\nn2 = 1\ncont = 0\nif num <= 0:\n    print(\"Por favor, entre com um número positivo.\")\nelif num == 1:\n    print(n1)\nelse:\n    print(\"Sequencia Fibonacci: \")\n    while cont < num:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "peekOfCode": "n2 = 1\ncont = 0\nif num <= 0:\n    print(\"Por favor, entre com um número positivo.\")\nelif num == 1:\n    print(n1)\nelse:\n    print(\"Sequencia Fibonacci: \")\n    while cont < num:\n        print(n1,\"->\",end=\" \")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "documentation": {}
+    },
+    {
+        "label": "cont",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "peekOfCode": "cont = 0\nif num <= 0:\n    print(\"Por favor, entre com um número positivo.\")\nelif num == 1:\n    print(n1)\nelse:\n    print(\"Sequencia Fibonacci: \")\n    while cont < num:\n        print(n1,\"->\",end=\" \")\n        proximo = n1 + n2",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex063",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex065",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex065",
+        "peekOfCode": "num = int(input('Digite números para somar: '))\nchs='S'\nvezes=1\nmaior=menor=soma=num\nwhile chs =='S':\n    num = int(input('Digite números para somar: '))\n    soma+=num\n    if num>maior:\n        maior = num\n    if num<menor:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex065",
+        "documentation": {}
+    },
+    {
+        "label": "mais18",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex069",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex069",
+        "peekOfCode": "mais18 = homens = mulhermenos20 = 0\nwhile True:\n    while True:\n        sexo = input(\"Digite o sexo(H/M): \").upper().strip()\n        if sexo == \"H\" or sexo == \"M\":\n            break\n    while True:\n        idade = input(\"Digite a idade: \")\n        if idade.isdigit():\n            idade = int(idade)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex069",
+        "documentation": {}
+    },
+    {
+        "label": "valor",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 2.ex071",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex071",
+        "peekOfCode": "valor = int(input('Digite quantos Reais você quer sacar: '))\nprint(f'Para {valor}R$, aqui está:')\nwhile True:\n    if valor>=50:\n        valor-=50\n        v50+=1\n    elif valor>=20:\n        valor-=20\n        v20+=1\n    elif valor>=10:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex071",
+        "documentation": {}
+    },
+    {
+        "label": "numerosExtensos",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
+        "peekOfCode": "numerosExtensos = (\n    \"zero\",\n    \"um\",\n    \"dois\",\n    \"três\",\n    \"quatro\",\n    \"cinco\",\n    \"seis\",\n    \"sete\",\n    \"oito\",",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
+        "peekOfCode": "num = 0\nprint('-='*22)\n# O loop serve para testar infinitamente até que o usuário digite um valor correto (0-20)\nwhile True:\n    num = input(\"Digite um número de 0-20: \")\n    # Testa se a string pode virar um valor inteiro e positivo\n    if num.isdigit():\n        # Transforma em inteiro\n        num = int(num)\n        # Testa se é um número de 0-20",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
+        "documentation": {}
+    },
+    {
+        "label": "times",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex073",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex073",
+        "peekOfCode": "times = (\n    \"São Paulo\",\n    \"Palmeiras\",\n    \"Flamengo\",\n    \"Fluminense\",\n    \"Bahia\",\n    \"Red Bull Bragantino\",\n    \"Coritiba\",\n    \"Athletico-PR\",\n    \"Grêmio\",",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex073",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex074",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex074",
+        "peekOfCode": "num = (\n    (randint(1, 10)),\n    (randint(1, 10)),\n    (randint(1, 10)),\n    (randint(1, 10)),\n    (randint(1, 10)),\n)\n# Mostra os valores de 4 formas\nprint(\"Os valores sorteados foram: \", end=\"\")\nfor n in num:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex074",
+        "documentation": {}
+    },
+    {
+        "label": "tupla_n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex075",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex075",
+        "peekOfCode": "tupla_n = (n1, n2, n3, n4)\n# Faz o print dos resultados\nprint(f\"Você digitou os números {tupla_n}\")\nvezes9 = tupla_n.count(9)\nif  vezes9 == 1:\n    print(f\"o número 9 apareceu {vezes9}ª vez\")\nelse:\n    print(f\"o número 9 apareceu {vezes9} vezes\")\nif 3 in tupla_n:\n    print(f\"o número 3 apareceu na {(tupla_n.index(3))+1}ª posição \")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex075",
+        "documentation": {}
+    },
+    {
+        "label": "vezes9",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex075",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex075",
+        "peekOfCode": "vezes9 = tupla_n.count(9)\nif  vezes9 == 1:\n    print(f\"o número 9 apareceu {vezes9}ª vez\")\nelse:\n    print(f\"o número 9 apareceu {vezes9} vezes\")\nif 3 in tupla_n:\n    print(f\"o número 3 apareceu na {(tupla_n.index(3))+1}ª posição \")\nelse:\n    print(\"O número 3 não foi digitado em nenhuma posição.\")\nprint(f\"Os números pares digitados são: \", end=\"\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex075",
+        "documentation": {}
+    },
+    {
+        "label": "tupla_precos",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex076",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex076",
+        "peekOfCode": "tupla_precos = (\n    \"Mouse pad\",\n    30,\n    \"Mouse USB\",\n    50,\n    \"Teclado mecânico\",\n    85,\n    \"Pen Drive 128gb\",\n    110,\n    \"SSD interno 480GB\",",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex076",
+        "documentation": {}
+    },
+    {
+        "label": "titulo",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex076",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex076",
+        "peekOfCode": "titulo = \"LISTAGEM DE PREÇOS\"\n# Cria um título\nprint(\"-=\" * 21)\nprint(f\"{titulo:^42}\")\nprint(\"=-\" * 21)\n# Imprime o valor i da tupla até não haver mais, depois imprime uma linha de \"=\" e para.\nfor i in range(0, len(tupla_precos), 2):\n    print(f\"|{tupla_precos[i]:.<30}R$ {tupla_precos[i+1]:>7.2f}|\")\nprint(\"=\" * 42)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex076",
+        "documentation": {}
+    },
+    {
+        "label": "palavras",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex077",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex077",
+        "peekOfCode": "palavras = (\n    \"JavaScript\",\n    \"Python\",\n    \"Java\",\n    \"TypeScript\",\n    \"C#\",\n    \"C++\",\n    \"C\",\n    \"PHP\",\n    \"Go\",",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex077",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "peekOfCode": "lista = []\nposicoes_maiores = []\nposicoes_menores = []\n#Pede para o usuario digitar 5 vezes alguns números adicionandos a um lista\nfor i in range(5):\n    lista.append(int(input('Digite um número: ')))\n# Define o maior e menor número\nmaior_numero = max(lista)\nmenor_numero = min(lista)\nfor i, x in enumerate(lista):",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "documentation": {}
+    },
+    {
+        "label": "posicoes_maiores",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "peekOfCode": "posicoes_maiores = []\nposicoes_menores = []\n#Pede para o usuario digitar 5 vezes alguns números adicionandos a um lista\nfor i in range(5):\n    lista.append(int(input('Digite um número: ')))\n# Define o maior e menor número\nmaior_numero = max(lista)\nmenor_numero = min(lista)\nfor i, x in enumerate(lista):\n    # Se o valor atual for igual ao maior ou menor valor encontrado...",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "documentation": {}
+    },
+    {
+        "label": "posicoes_menores",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "peekOfCode": "posicoes_menores = []\n#Pede para o usuario digitar 5 vezes alguns números adicionandos a um lista\nfor i in range(5):\n    lista.append(int(input('Digite um número: ')))\n# Define o maior e menor número\nmaior_numero = max(lista)\nmenor_numero = min(lista)\nfor i, x in enumerate(lista):\n    # Se o valor atual for igual ao maior ou menor valor encontrado...\n    if x == maior_numero:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "documentation": {}
+    },
+    {
+        "label": "maior_numero",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "peekOfCode": "maior_numero = max(lista)\nmenor_numero = min(lista)\nfor i, x in enumerate(lista):\n    # Se o valor atual for igual ao maior ou menor valor encontrado...\n    if x == maior_numero:\n        # ...adicionamos a posição (índice) na nossa lista\n        posicoes_maiores.append(i+1)\n    if x == menor_numero:\n        # ...adicionamos a posição (índice) na nossa lista\n        posicoes_menores.append(i+1)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "documentation": {}
+    },
+    {
+        "label": "menor_numero",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "peekOfCode": "menor_numero = min(lista)\nfor i, x in enumerate(lista):\n    # Se o valor atual for igual ao maior ou menor valor encontrado...\n    if x == maior_numero:\n        # ...adicionamos a posição (índice) na nossa lista\n        posicoes_maiores.append(i+1)\n    if x == menor_numero:\n        # ...adicionamos a posição (índice) na nossa lista\n        posicoes_menores.append(i+1)\n# Pra deixar mais organizado",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex078",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex079",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex079",
+        "peekOfCode": "numeros = []\n#Avisa ao usuário como parar o código\nprint('Para parar digite \"pare\"!')\n#Um laço criado para adicionar numeros não adicionados ainda à lista até que ele digite 'pare' ou 'PARE'\nwhile True:\n    #Pede ao usuário digitar um número\n    resposta = input(\"Digite um número: \")\n    try: \n        #Se o usuário digitar 'pare' ou 'PARE' ele para :)\n        if resposta.upper().strip() == \"PARE\":",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex079",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex080",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex080",
+        "peekOfCode": "numeros = []\n#Esse laço rodará até que o laço tenha 5 valores númericos inteiros\nwhile len(numeros) < 5:\n    num = input('Digite um número: ')\n    try:\n        #Tenta converter para número inteiro\n        num = int(num)\n        #Se a lista estiver vazia ou se o número digitado for maior que todos da lista ele adiciona à ela em ultimo lugar\n        if len(numeros) == 0 or num > numeros[-1]:\n            numeros.append(num)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex080",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex081",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex081",
+        "peekOfCode": "numeros = []\n# Avisa ao usuário como parar o código\nprint('Para parar digite \"pare\"!')\n# Um laço criado para adicionar numeros não adicionados ainda à lista até que ele digite 'pare' ou 'PARE'\nwhile True:\n    # Pede ao usuário digitar um número\n    resposta = input(\"Digite um número: \")\n    try:\n        # Se ele digitar \"pare\" ou \"PARE\" ou \" pare \" ele para :)\n        if resposta.upper().strip() == \"PARE\":",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex081",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_orde_reve",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex081",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex081",
+        "peekOfCode": "numeros_orde_reve = sorted(numeros, reverse=True)\n#Para deixar mais organizado\nprint(\"=-=\"*20)\n# Mostra quantos números foram digitados\nprint(f\"Foram digitados {len(numeros)} números.\")\n# Mostra uma lista ordenada de forma decrescente\nprint(f\"A lista ordenada de forma decrescente {numeros_orde_reve}\")\n# Mostra quantas vezes o número 5 foi digitado, caso for nenhuma ele mostra que não foi digitado nenhuma vez\nif numeros.count(5) >= 1:\n    print(f\"O número 5 faz parte da lista.\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex081",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "peekOfCode": "numeros = []\nnumeros_pares = []\nnumeros_impares = []\n# Avisa ao usuário como parar o código\nprint('Para parar digite \"pare\"!')\n# Um laço criado para adicionar numeros não adicionados ainda à lista até que ele digite 'pare' ou 'PARE'\nwhile True:\n    # Pede ao usuário digitar um número\n    resposta = input(\"Digite um número: \")\n    try:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_pares",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "peekOfCode": "numeros_pares = []\nnumeros_impares = []\n# Avisa ao usuário como parar o código\nprint('Para parar digite \"pare\"!')\n# Um laço criado para adicionar numeros não adicionados ainda à lista até que ele digite 'pare' ou 'PARE'\nwhile True:\n    # Pede ao usuário digitar um número\n    resposta = input(\"Digite um número: \")\n    try:\n        # Se ele digitar \"pare\" ou \"PARE\" ou \" pare \" ele para :)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_impares",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "peekOfCode": "numeros_impares = []\n# Avisa ao usuário como parar o código\nprint('Para parar digite \"pare\"!')\n# Um laço criado para adicionar numeros não adicionados ainda à lista até que ele digite 'pare' ou 'PARE'\nwhile True:\n    # Pede ao usuário digitar um número\n    resposta = input(\"Digite um número: \")\n    try:\n        # Se ele digitar \"pare\" ou \"PARE\" ou \" pare \" ele para :)\n        if resposta.upper().strip() == \"PARE\":",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex082",
+        "documentation": {}
+    },
+    {
+        "label": "resposta",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex083",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex083",
+        "peekOfCode": "resposta = (input(\"Digite uma expressão matematica com parênteses: \"))\n# Cria uma lista que vai funcionar como uma \"pilha\" para controlar os parênteses\nlista_carac = []\n# Um laço criado para analisar cada caractere da resposta do usuário\nfor carac in resposta:\n    # Se o caractere for um parêntese de abertura, ele é adicionado à lista\n    if carac == '(':\n        lista_carac.append('(')\n    # Se o caractere for um parêntese de fechamento, o código checa se há um par para ele\n    elif carac == ')':",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex083",
+        "documentation": {}
+    },
+    {
+        "label": "lista_carac",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex083",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex083",
+        "peekOfCode": "lista_carac = []\n# Um laço criado para analisar cada caractere da resposta do usuário\nfor carac in resposta:\n    # Se o caractere for um parêntese de abertura, ele é adicionado à lista\n    if carac == '(':\n        lista_carac.append('(')\n    # Se o caractere for um parêntese de fechamento, o código checa se há um par para ele\n    elif carac == ')':\n        # Se a lista não estiver vazia, removemos o parêntese de abertura correspondente\n        if len(lista_carac) > 0:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex083",
+        "documentation": {}
+    },
+    {
+        "label": "pessoa",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "peekOfCode": "pessoa = list()\npessoaS = list()\npesados = list()\nleves = list()\nwhile True:\n    #Adiciona nome e peso a lista pessoa\n    pessoa.append(input(\"Digite o nome da pessoa: \")) #pessoa[0]=nome\n    pessoa.append(int(input(\"Digite o peso da pessoa: \"))) #pessoa[1]=peso\n    #Adiciona uma copia da lista pessoa a lista pessoaS\n    pessoaS.append(pessoa[:])",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "documentation": {}
+    },
+    {
+        "label": "pessoaS",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "peekOfCode": "pessoaS = list()\npesados = list()\nleves = list()\nwhile True:\n    #Adiciona nome e peso a lista pessoa\n    pessoa.append(input(\"Digite o nome da pessoa: \")) #pessoa[0]=nome\n    pessoa.append(int(input(\"Digite o peso da pessoa: \"))) #pessoa[1]=peso\n    #Adiciona uma copia da lista pessoa a lista pessoaS\n    pessoaS.append(pessoa[:])\n    #Se for a primeira pessoa adicionadad ele define que ela tem o maior e menor peso",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "documentation": {}
+    },
+    {
+        "label": "pesados",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "peekOfCode": "pesados = list()\nleves = list()\nwhile True:\n    #Adiciona nome e peso a lista pessoa\n    pessoa.append(input(\"Digite o nome da pessoa: \")) #pessoa[0]=nome\n    pessoa.append(int(input(\"Digite o peso da pessoa: \"))) #pessoa[1]=peso\n    #Adiciona uma copia da lista pessoa a lista pessoaS\n    pessoaS.append(pessoa[:])\n    #Se for a primeira pessoa adicionadad ele define que ela tem o maior e menor peso\n    if len(pessoaS) == 1:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "documentation": {}
+    },
+    {
+        "label": "leves",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "peekOfCode": "leves = list()\nwhile True:\n    #Adiciona nome e peso a lista pessoa\n    pessoa.append(input(\"Digite o nome da pessoa: \")) #pessoa[0]=nome\n    pessoa.append(int(input(\"Digite o peso da pessoa: \"))) #pessoa[1]=peso\n    #Adiciona uma copia da lista pessoa a lista pessoaS\n    pessoaS.append(pessoa[:])\n    #Se for a primeira pessoa adicionadad ele define que ela tem o maior e menor peso\n    if len(pessoaS) == 1:\n        maiorpeso = menorpeso = pessoa[1]",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex084",
+        "documentation": {}
+    },
+    {
+        "label": "pares_ímpares",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex085",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex085",
+        "peekOfCode": "pares_ímpares = [[], []]  # [0] é pares, [1] é ímpares\nfor _ in range(7):\n    num = int(input(\"Digite um número: \"))\n    if num % 2 == 0:\n        pares_ímpares[0].append(num)\n    else:\n        pares_ímpares[1].append(num)\nprint(\"=-=\" * 15)\nprint(f\"Os valores pares digitados foram: {sorted(pares_ímpares[0])}\")\nprint(f\"Os valores ímpares digitados foram: {sorted(pares_ímpares[1])}\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex085",
+        "documentation": {}
+    },
+    {
+        "label": "números",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex086",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex086",
+        "peekOfCode": "números = [[],[],[]]\nfor i in range(3):\n    for j in range(3):\n        núm = int(input(f'Digite um número para adicionar à [{i,j}]: '))\n        números[i].append(núm)\nfor i in números:\n    for j in i:\n        print(f'[{j:^5}]', end='')\n    print()",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex086",
+        "documentation": {}
+    },
+    {
+        "label": "números",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex087",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex087",
+        "peekOfCode": "números = [[],[],[]]\nfor i in range(3):\n    for j in range(3):\n        núm = int(input(f'Digite um número para adicionar à [{i},{j}]: '))\n        números[i].append(núm)\nsoma_pares=0\nsoma3col=0\n#Soma os números pares\nfor i in números:\n    for v in i:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex087",
+        "documentation": {}
+    },
+    {
+        "label": "maior2lin",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex087",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex087",
+        "peekOfCode": "maior2lin = números[1][0]\nfor v in números[1]:\n    if v > maior2lin:\n        maior2lin = v\n# Respostas\nprint('=-='*15)\nfor i in números:\n    for j in i:\n        print(f'[{j:^5}]', end='')\n    print()",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex087",
+        "documentation": {}
+    },
+    {
+        "label": "palpites",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex088",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex088",
+        "peekOfCode": "palpites = list()\nprint(\"-\"*40)\nprint('MEGA SENA'.center(40))\nprint(\"-\"*40)\nquant = int(input(\"Quantos jogos você quer que eu sorteie?: \"))\nprint(f\"SORTEANDO {quant} JOGOS\".center(40,\"=\"))\nfor i in range(quant):\n    palpites.append(sorted(random.sample(range(1,61), 6)))\n    print(f\"JOGO {i+1}: {palpites[i]}\")\nprint('BOA SORTE'.center(40,\"=\"))",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex088",
+        "documentation": {}
+    },
+    {
+        "label": "quant",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex088",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex088",
+        "peekOfCode": "quant = int(input(\"Quantos jogos você quer que eu sorteie?: \"))\nprint(f\"SORTEANDO {quant} JOGOS\".center(40,\"=\"))\nfor i in range(quant):\n    palpites.append(sorted(random.sample(range(1,61), 6)))\n    print(f\"JOGO {i+1}: {palpites[i]}\")\nprint('BOA SORTE'.center(40,\"=\"))",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex088",
+        "documentation": {}
+    },
+    {
+        "label": "aluno",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "peekOfCode": "aluno = dict()\naluno['nome'] = input('Nome: ')\naluno['media'] = float(input('Média: '))\nprint(f'Nome é igual a {aluno[\"nome\"]}')\nprint(f'Média é igual a {aluno[\"media\"]}')\nif aluno['media']>=6:\n    aluno['situação'] = 'Aprovado'\n    print(\"Situação é igual a Aprovado\")\nelse:\n    aluno['situação'] ='Reprovado'",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "documentation": {}
+    },
+    {
+        "label": "aluno['nome']",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "peekOfCode": "aluno['nome'] = input('Nome: ')\naluno['media'] = float(input('Média: '))\nprint(f'Nome é igual a {aluno[\"nome\"]}')\nprint(f'Média é igual a {aluno[\"media\"]}')\nif aluno['media']>=6:\n    aluno['situação'] = 'Aprovado'\n    print(\"Situação é igual a Aprovado\")\nelse:\n    aluno['situação'] ='Reprovado'\n    print(\"Situação é igual a Reprovado\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "documentation": {}
+    },
+    {
+        "label": "aluno['media']",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "peekOfCode": "aluno['media'] = float(input('Média: '))\nprint(f'Nome é igual a {aluno[\"nome\"]}')\nprint(f'Média é igual a {aluno[\"media\"]}')\nif aluno['media']>=6:\n    aluno['situação'] = 'Aprovado'\n    print(\"Situação é igual a Aprovado\")\nelse:\n    aluno['situação'] ='Reprovado'\n    print(\"Situação é igual a Reprovado\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex090",
+        "documentation": {}
+    },
+    {
+        "label": "jogadores",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex091",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex091",
+        "peekOfCode": "jogadores = dict()\nfor i in range(4):\n    jogadores[f\"jogador{+i+1}\"] = random.randint(1, 6)\nprint(\"-\" * 30)\nfor nomes, numero in jogadores.items():\n    print(f\"O {nomes} tirou {numero}\")\nprint(\"-\" * 30)\njogadores_ordenados = dict(sorted(jogadores.items(), key=itemgetter(1), reverse=True))\nfor colocado, (nomes, numero) in enumerate(jogadores_ordenados.items()):\n    print(f\"{colocado+1}° lugar: {nomes} com {numero}\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex091",
+        "documentation": {}
+    },
+    {
+        "label": "jogadores_ordenados",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex091",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex091",
+        "peekOfCode": "jogadores_ordenados = dict(sorted(jogadores.items(), key=itemgetter(1), reverse=True))\nfor colocado, (nomes, numero) in enumerate(jogadores_ordenados.items()):\n    print(f\"{colocado+1}° lugar: {nomes} com {numero}\")\nprint(\"-\" * 30)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex091",
+        "documentation": {}
+    },
+    {
+        "label": "ano_atual",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex092",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex092",
+        "peekOfCode": "ano_atual = date.today().year\nwhile True:\n    try:\n        cadastro = dict()\n        print(\"=---Cadastro---=\")\n        cadastro[\"nome\"] = input(\"Nome: \").strip()\n        cadastro[\"idade\"] = ano_atual - int(input(\"Ano de nascimento: \"))\n        cadastro[\"ctps\"] = int(\n            input(\"Número da carteira de trabalho (0 caso não tenha): \")\n        )",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex092",
+        "documentation": {}
+    },
+    {
+        "label": "pessoas_lista",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "peekOfCode": "pessoas_lista = list()\nsoma_idade = 0\nwhile True:\n    pessoa = {}\n    while True:\n        try:\n            pessoa[\"nome\"] = input(\"Nome: \").strip()\n            if pessoa[\"nome\"] != \"\":\n                break\n            print(\"Digite um nome!\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "documentation": {}
+    },
+    {
+        "label": "soma_idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "peekOfCode": "soma_idade = 0\nwhile True:\n    pessoa = {}\n    while True:\n        try:\n            pessoa[\"nome\"] = input(\"Nome: \").strip()\n            if pessoa[\"nome\"] != \"\":\n                break\n            print(\"Digite um nome!\")\n        except:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "documentation": {}
+    },
+    {
+        "label": "media_idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "peekOfCode": "media_idade = soma_idade / len(pessoas_lista)\nprint(\"=-=\" * 20)\nprint(f\"Total de pessoas cadastradas: {len(pessoas_lista)}\")\nprint(f\"Média de idade das pessoas cadastradas: {media_idade:.2f} anos\")\nprint(\"Nome das mulheres cadastradas: \", end=\"\")\nfor pessoa in pessoas_lista:\n    if pessoa[\"sexo\"] == \"F\":\n        print(pessoa[\"nome\"], end=\" \")\nprint(\"\\nLista de pessoas que estão com a idade acima da média: \")\nfor pessoa in pessoas_lista:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex094",
+        "documentation": {}
+    },
+    {
+        "label": "lista_jogadores",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex095",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex095",
+        "peekOfCode": "lista_jogadores = list()\nchc = 0\nwhile True:\n    try:\n        InformaçõesJogador = dict()\n        list_gols = list()\n        total_gols = 0\n        InformaçõesJogador[\"nome\"] = input(\"Nome do jogador: \")\n        InformaçõesJogador[\"partidas\"] = int(\n            input(f'Quantas partidas {InformaçõesJogador[\"nome\"]} jogou?: ')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex095",
+        "documentation": {}
+    },
+    {
+        "label": "chc",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex095",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex095",
+        "peekOfCode": "chc = 0\nwhile True:\n    try:\n        InformaçõesJogador = dict()\n        list_gols = list()\n        total_gols = 0\n        InformaçõesJogador[\"nome\"] = input(\"Nome do jogador: \")\n        InformaçõesJogador[\"partidas\"] = int(\n            input(f'Quantas partidas {InformaçõesJogador[\"nome\"]} jogou?: ')\n        )",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex095",
+        "documentation": {}
+    },
+    {
+        "label": "área",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "peekOfCode": "def área(c,l):\n    areacalculada = c*l\n    return areacalculada\nprint('-----------Calculo terreno-----------')\ncomprimento = float(input('Qual o comprimento do terreno?: '))\nlargura = float(input('Qual a largura do terreno?: '))\nprint('-'*37)\nareacalculada = área(comprimento,largura)\nprint(f\"Um terreno de {comprimento}m de comprimento e {largura}m de largura, tem {areacalculada}m²\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "documentation": {}
+    },
+    {
+        "label": "comprimento",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "peekOfCode": "comprimento = float(input('Qual o comprimento do terreno?: '))\nlargura = float(input('Qual a largura do terreno?: '))\nprint('-'*37)\nareacalculada = área(comprimento,largura)\nprint(f\"Um terreno de {comprimento}m de comprimento e {largura}m de largura, tem {areacalculada}m²\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "documentation": {}
+    },
+    {
+        "label": "largura",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "peekOfCode": "largura = float(input('Qual a largura do terreno?: '))\nprint('-'*37)\nareacalculada = área(comprimento,largura)\nprint(f\"Um terreno de {comprimento}m de comprimento e {largura}m de largura, tem {areacalculada}m²\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "documentation": {}
+    },
+    {
+        "label": "areacalculada",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "peekOfCode": "areacalculada = área(comprimento,largura)\nprint(f\"Um terreno de {comprimento}m de comprimento e {largura}m de largura, tem {areacalculada}m²\")",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex096",
+        "documentation": {}
+    },
+    {
+        "label": "titulo",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex097",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex097",
+        "peekOfCode": "def titulo(msg):\n   print(\"~\"*(len(msg)+4))\n   print(' ',msg,' ')\n   print(\"~\"*(len(msg)+4))\ntitulo('Guilherme Mantoanelli')\ntitulo('Curso de Python')\ntitulo('Codigo pronto!!!')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex097",
+        "documentation": {}
+    },
+    {
+        "label": "contador",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "peekOfCode": "def contador(inicio,fim,passo):\n    passo = abs(passo)\n    num = inicio\n    if passo == 0:\n        passo = 1\n    if inicio<fim:\n        print(f'Contagem de {inicio} até {fim} de {passo} em {passo}')\n        while num <= fim:\n            print(num,end=' ',flush=True)\n            num+=passo",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "documentation": {}
+    },
+    {
+        "label": "ini",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "peekOfCode": "ini = int(input('Inicio: '))\nfim = int(input('Fim: '))\npas = int(input('Passo: '))\ncontador(ini,fim,pas)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "documentation": {}
+    },
+    {
+        "label": "fim",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "peekOfCode": "fim = int(input('Fim: '))\npas = int(input('Passo: '))\ncontador(ini,fim,pas)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "documentation": {}
+    },
+    {
+        "label": "pas",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "peekOfCode": "pas = int(input('Passo: '))\ncontador(ini,fim,pas)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex098",
+        "documentation": {}
+    },
+    {
+        "label": "maior",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "def maior(lst):\n    \"\"\"\n    Analisa uma coleção de dados e identifica o maior valor numérico.\n    Aceita tuplas, listas e dicionários.\n    \"\"\"\n    # Verifica se a entrada é um dicionário e converte para lista de valores\n    if type(lst) == dict:\n        lst = list(lst.values())\n    try:\n        # Define o primeiro elemento como referência inicial",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "numeros = (1, 2, 3, 4, 5, 6, 7, 8)\nnumeros_com_zero = (0, 1, 2, 3, 4, 5)\nso_zeros = (0, 0, 0, 0)\nnumeros_grandes = (1000, 500, 0, 250, 10000)\nmistura_total = (-10, -5, 0, 5, 10)\ndecimais = (0.0, 0.5, 1.25, 3.14, 0.0)\nzero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_com_zero",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "numeros_com_zero = (0, 1, 2, 3, 4, 5)\nso_zeros = (0, 0, 0, 0)\nnumeros_grandes = (1000, 500, 0, 250, 10000)\nmistura_total = (-10, -5, 0, 5, 10)\ndecimais = (0.0, 0.5, 1.25, 3.14, 0.0)\nzero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "so_zeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "so_zeros = (0, 0, 0, 0)\nnumeros_grandes = (1000, 500, 0, 250, 10000)\nmistura_total = (-10, -5, 0, 5, 10)\ndecimais = (0.0, 0.5, 1.25, 3.14, 0.0)\nzero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "numeros_grandes",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "numeros_grandes = (1000, 500, 0, 250, 10000)\nmistura_total = (-10, -5, 0, 5, 10)\ndecimais = (0.0, 0.5, 1.25, 3.14, 0.0)\nzero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "mistura_total",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "mistura_total = (-10, -5, 0, 5, 10)\ndecimais = (0.0, 0.5, 1.25, 3.14, 0.0)\nzero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "decimais",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "decimais = (0.0, 0.5, 1.25, 3.14, 0.0)\nzero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {\n    \"Marcos\": 7.5, ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "zero_unitario",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "zero_unitario = (0,)\nnada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {\n    \"Marcos\": 7.5, \n    \"Julia\": 9.2, ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "nada",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "nada = ()\nesparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {\n    \"Marcos\": 7.5, \n    \"Julia\": 9.2, \n    \"Pedro\": 6.0, ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "esparsos",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "esparsos = (0, 100, 200, 500, 1000)\n# Conjuntos do tipo Lista (Mutáveis)\npontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {\n    \"Marcos\": 7.5, \n    \"Julia\": 9.2, \n    \"Pedro\": 6.0, \n    \"Ana\": 10.0, ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "pontuacoes",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "pontuacoes = [120, 450, 78, 900, 10, 540, 670]\ntemperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {\n    \"Marcos\": 7.5, \n    \"Julia\": 9.2, \n    \"Pedro\": 6.0, \n    \"Ana\": 10.0, \n    \"Lucas\": 8.5\n}",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "temperaturas",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "temperaturas = [-5.5, -10.2, 0, -1.0, 4.5, -12.8, 2.0]\n# Conjunto do tipo Dicionário (Chave: Valor)\nnotas_alunos = {\n    \"Marcos\": 7.5, \n    \"Julia\": 9.2, \n    \"Pedro\": 6.0, \n    \"Ana\": 10.0, \n    \"Lucas\": 8.5\n}\n# --- Execução dos Testes ---",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "notas_alunos",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "peekOfCode": "notas_alunos = {\n    \"Marcos\": 7.5, \n    \"Julia\": 9.2, \n    \"Pedro\": 6.0, \n    \"Ana\": 10.0, \n    \"Lucas\": 8.5\n}\n# --- Execução dos Testes ---\n# Chamadas com Tuplas\nmaior(numeros)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex099",
+        "documentation": {}
+    },
+    {
+        "label": "sorteia",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "peekOfCode": "def sorteia(lst):\n    print(\"Sorteando 5 valores da lista:\", end='')\n    for i in range(5):\n        lst.append(random.randint(1,100))\n        print(lst[-1], end=' ')\n    print()\ndef somaPar(lst):\n    somaPares= 0\n    print(\"Somando os valores pares de:\", end='')\n    for num in lst:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "documentation": {}
+    },
+    {
+        "label": "somaPar",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "peekOfCode": "def somaPar(lst):\n    somaPares= 0\n    print(\"Somando os valores pares de:\", end='')\n    for num in lst:\n        if num % 2 == 0:\n            somaPares += num\n    print(lst, end='')\n    print(f\"temos {somaPares}\")\nsorteia(numeros)\nsomaPar(numeros)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "documentation": {}
+    },
+    {
+        "label": "numeros",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "peekOfCode": "numeros = []\ndef sorteia(lst):\n    print(\"Sorteando 5 valores da lista:\", end='')\n    for i in range(5):\n        lst.append(random.randint(1,100))\n        print(lst[-1], end=' ')\n    print()\ndef somaPar(lst):\n    somaPares= 0\n    print(\"Somando os valores pares de:\", end='')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex100",
+        "documentation": {}
+    },
+    {
+        "label": "voto",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "peekOfCode": "def voto(ano):\n    \"\"\"-> Verifica se pode, deve ou não pode votar.\n        :param ano: ano de nascimento\n        :return: NEGADO, OPCIONAL, OBRIGATÓRIO\n        \"\"\"\n    ano_atual = date.today().year\n    idade = ano_atual - ano\n    if idade < 16:\n        return 'NEGADO'\n    elif idade < 18 or idade > 70 :",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "documentation": {}
+    },
+    {
+        "label": "ano",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "peekOfCode": "ano = int(input(\"Em que ano você nasceu?: \"))\nstatus = voto(ano)\nprint(f'Com base na sua idade, o seu voto é: {status}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "peekOfCode": "status = voto(ano)\nprint(f'Com base na sua idade, o seu voto é: {status}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex101",
+        "documentation": {}
+    },
+    {
+        "label": "fatorial",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex102",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex102",
+        "peekOfCode": "def fatorial(num,show=False):\n    \"\"\"Help on function fatorial in module _main_:\n    fatorial(n, show=False)\n        -> Calcula o Fatorial de um número. \n        :param n: O número a ser calculado. \n        :param show: (opcional) Mostrar ou não a conta. \n        :return: O valor do Fatorial de um número n.\n    \"\"\"\n    fatorialnum=1\n    while num != 0:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex102",
+        "documentation": {}
+    },
+    {
+        "label": "ficha",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "peekOfCode": "def ficha(nome='<desconhecido>', gols=0):\n    return(f'O jogador {nome} fez {gols} gol(s) no campeonato.')\nnome = input('Nome do jogador: ')\ngols = int(input('Número de gol: '))\nprint(ficha(nome, gols))\nprint(ficha('Carlos', 33))\nprint(ficha(gols=33))\nprint(ficha('Carlos'))\nprint(ficha())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "documentation": {}
+    },
+    {
+        "label": "nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "peekOfCode": "nome = input('Nome do jogador: ')\ngols = int(input('Número de gol: '))\nprint(ficha(nome, gols))\nprint(ficha('Carlos', 33))\nprint(ficha(gols=33))\nprint(ficha('Carlos'))\nprint(ficha())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "documentation": {}
+    },
+    {
+        "label": "gols",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "peekOfCode": "gols = int(input('Número de gol: '))\nprint(ficha(nome, gols))\nprint(ficha('Carlos', 33))\nprint(ficha(gols=33))\nprint(ficha('Carlos'))\nprint(ficha())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex103",
+        "documentation": {}
+    },
+    {
+        "label": "leiaInt",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "peekOfCode": "def leiaInt():\n    try:\n        global n\n        n = int(input(f'{n}'))\n        return(n)\n    except:\n        #print('ERRO! Digite um número inteiro válido.')\n        #sys.exit()\n        print()\nn = leiaInt('Digite um número: ')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "peekOfCode": "n = leiaInt('Digite um número: ')\nprint(f'Você acabou de digitar o número {n}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "documentation": {}
+    }
+]
