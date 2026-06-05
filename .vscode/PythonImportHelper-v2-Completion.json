@@ -2607,7 +2607,7 @@
         "kind": 2,
         "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
         "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
-        "peekOfCode": "def leiaInt():\n    try:\n        global n\n        n = int(input(f'{n}'))\n        return(n)\n    except:\n        #print('ERRO! Digite um número inteiro válido.')\n        #sys.exit()\n        print()\nn = leiaInt('Digite um número: ')",
+        "peekOfCode": "def leiaInt(n=0):\n    \"\"\"Função que funciona de forma semelhante à função input(), mas faz \n        a validação de tipo para aceitar APENAS números inteiros.\n        O programa continuará em laço (loop) até que um valor inteiro válido seja digitado.\n        :param msg: (Opcional) O texto que será exibido para o usuário no input.\n        :return: Retorna o valor inteiro digitado e validado.\"\"\"\n    while True:\n        try:\n            n = int(input(n))\n            return(n)",
         "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
         "documentation": {}
     },
@@ -2618,6 +2618,33 @@
         "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
         "peekOfCode": "n = leiaInt('Digite um número: ')\nprint(f'Você acabou de digitar o número {n}')",
         "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex104",
+        "documentation": {}
+    },
+    {
+        "label": "notas",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex105",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex105",
+        "peekOfCode": "def notas(*nums, sit=False):\n    \"\"\"\n    Função para analisar notas e situações de vários alunos.\n    :param nums: Uma ou mais notas dos alunos (aceita múltiplas notas).\n    :param sit: (Opcional) Indica se deve ou não adicionar a situação da média no dicionário.\n    :return: Dicionário com o total de notas, a maior, a menor, a média e a situação (se solicitada).\n    \"\"\"\n    dictnotas = {\n        \"total\": len(nums),\n        \"maior\": max(nums),",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex105",
+        "documentation": {}
+    },
+    {
+        "label": "resp",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex105",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex105",
+        "peekOfCode": "resp = notas(5.5, 9.5, 10, 6.5, sit=True)\nprint(resp)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex105",
+        "documentation": {}
+    },
+    {
+        "label": "pyHelp",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
+        "peekOfCode": "def pyHelp():\n    text01= 'SISTEMA DE AJUDA PyHELP'\n    print('~'*(len(text01)+4))\n    print(' ',text01,' ')\n    print('~'*(len(text01)+4))\n    while True:\n        try:\n            chc = input('Função ou Biblioteca: ')\n            if chc.upper() == 'FIM':\n                print('~'*12)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
         "documentation": {}
     }
 ]
