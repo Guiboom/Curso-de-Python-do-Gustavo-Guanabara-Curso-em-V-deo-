@@ -110,6 +110,15 @@
         "documentation": {}
     },
     {
+        "label": "pydoc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydoc",
+        "description": "pydoc",
+        "detail": "pydoc",
+        "documentation": {}
+    },
+    {
         "label": "n2",
         "kind": 5,
         "importPath": "pythonExercícios.Aulas.Mundo 1.aula06a",
@@ -2643,7 +2652,7 @@
         "kind": 2,
         "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
         "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
-        "peekOfCode": "def pyHelp():\n    text01= 'SISTEMA DE AJUDA PyHELP'\n    print('~'*(len(text01)+4))\n    print(' ',text01,' ')\n    print('~'*(len(text01)+4))\n    while True:\n        try:\n            chc = input('Função ou Biblioteca: ')\n            if chc.upper() == 'FIM':\n                print('~'*12)",
+        "peekOfCode": "def pyHelp():\n    AZUL_VERMELHO = '\\033[0;31;44m'\n    VERDE_PRETO = '\\033[0;30;42m'\n    VERMELHO_PADRAO = '\\033[0;31m'\n    AMARELO_PADRAO = '\\033[30;43m'\n    ROXO_BRANCO = '\\033[0;30;45m'\n    C_FIM = '\\033[m'\n    LIMPAR = '\\033[2J\\033[H' \n    text01 = 'SISTEMA DE AJUDA PyHELP'\n    tam_tit = len(text01) + 4",
         "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
         "documentation": {}
     }
