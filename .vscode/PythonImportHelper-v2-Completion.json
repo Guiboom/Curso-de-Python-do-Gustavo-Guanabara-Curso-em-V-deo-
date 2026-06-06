@@ -26,6 +26,15 @@
         "documentation": {}
     },
     {
+        "label": "uteis",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uteis",
+        "description": "uteis",
+        "detail": "uteis",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -404,6 +413,69 @@
         "description": "pythonExercícios.Aulas.Mundo 2.aula15",
         "peekOfCode": "salario = 8000\nprint(f'O {nome} tem {idade} anos e ganha R${salario:.2f}.')\n \"\"\"",
         "detail": "pythonExercícios.Aulas.Mundo 2.aula15",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "peekOfCode": "num = int(input(\"Digite um número: \"))\nfat = fatorial(num)\ndob = dobro(num)\ntri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "fat",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "peekOfCode": "fat = fatorial(num)\ndob = dobro(num)\ntri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "dob",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "peekOfCode": "dob = dobro(num)\ntri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "tri",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "peekOfCode": "tri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "fatorial",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "peekOfCode": "def fatorial(n):\n    f = 1\n    for c in range(1, n + 1):\n        f *= c\n    return f\ndef dobro(n):\n    return n * 2\ndef triplo(n):\n    return n * 3",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "documentation": {}
+    },
+    {
+        "label": "dobro",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "peekOfCode": "def dobro(n):\n    return n * 2\ndef triplo(n):\n    return n * 3",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "documentation": {}
+    },
+    {
+        "label": "triplo",
+        "kind": 2,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "peekOfCode": "def triplo(n):\n    return n * 3",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
         "documentation": {}
     },
     {
