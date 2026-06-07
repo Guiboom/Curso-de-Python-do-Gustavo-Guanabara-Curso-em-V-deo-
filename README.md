@@ -10,9 +10,9 @@ O foco principal é a consolidação da lógica de programação e o domínio da
 
 O curso é dividido em três grandes blocos (Mundos), e cada um foca em objetivos específicos:
 
-* **[Mundo 1](https://link-para-sua-pasta-mundo1):** Fundamentos, tipos primitivos, operadores aritméticos, módulos e estruturas condicionais básicas.
-* **[Mundo 2](https://link-para-sua-pasta-mundo2):** Estruturas de repetição (`for`, `while`), condições aninhadas e controle de fluxo.
-* **[Mundo 3](https://link-para-sua-pasta-mundo3):** Estruturas de dados complexas (listas, tuplas, dicionários), funções, módulos e pacotes.
+* **[Exercícios do Mundo 1](https://github.com/Guiboom/Curso-de-Python-do-Gustavo-Guanabara-Curso-em-V-deo-/tree/main/pythonExerc%C3%ADcios/Exec%C3%ADcios/Exec%C3%ADcios%20Mundo%201):** Fundamentos, tipos primitivos, operadores aritméticos, módulos e estruturas condicionais básicas.
+* **[Exercícios do Mundo 2](https://github.com/Guiboom/Curso-de-Python-do-Gustavo-Guanabara-Curso-em-V-deo-/tree/main/pythonExerc%C3%ADcios/Exec%C3%ADcios/Exec%C3%ADcios%20Mundo%202):** Estruturas de repetição (`for`, `while`), condições aninhadas e controle de fluxo.
+* **[Exercícios do Mundo 3](https://github.com/Guiboom/Curso-de-Python-do-Gustavo-Guanabara-Curso-em-V-deo-/tree/main/pythonExerc%C3%ADcios/Exec%C3%ADcios/Exec%C3%ADcios%20Mundo%203):** Estruturas de dados complexas (listas, tuplas, dicionários), funções, módulos e pacotes.
 
 ---
 
