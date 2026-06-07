@@ -35,6 +35,14 @@
         "documentation": {}
     },
     {
+        "label": "numeros",
+        "importPath": "pacote",
+        "description": "pacote",
+        "isExtraImport": true,
+        "detail": "pacote",
+        "documentation": {}
+    },
+    {
         "label": "os",
         "kind": 6,
         "isExtraImport": true,
@@ -99,6 +107,15 @@
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "moeda",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "moeda",
+        "description": "moeda",
+        "detail": "moeda",
         "documentation": {}
     },
     {
@@ -418,64 +435,100 @@
     {
         "label": "num",
         "kind": 5,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "peekOfCode": "num = int(input(\"Digite um número: \"))\nfat = fatorial(num)\ndob = dobro(num)\ntri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "peekOfCode": "num = int(input(\"Digite um número: \"))\nfat = uteis.fatorial(num)\ndob = uteis.dobro(num)\ntri = uteis.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
         "documentation": {}
     },
     {
         "label": "fat",
         "kind": 5,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "peekOfCode": "fat = fatorial(num)\ndob = dobro(num)\ntri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "peekOfCode": "fat = uteis.fatorial(num)\ndob = uteis.dobro(num)\ntri = uteis.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
         "documentation": {}
     },
     {
         "label": "dob",
         "kind": 5,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "peekOfCode": "dob = dobro(num)\ntri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "peekOfCode": "dob = uteis.dobro(num)\ntri = uteis.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
         "documentation": {}
     },
     {
         "label": "tri",
         "kind": 5,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
-        "peekOfCode": "tri = triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.numeros",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
+        "peekOfCode": "tri = uteis.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.numeros",
         "documentation": {}
     },
     {
         "label": "fatorial",
         "kind": 2,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
         "peekOfCode": "def fatorial(n):\n    f = 1\n    for c in range(1, n + 1):\n        f *= c\n    return f\ndef dobro(n):\n    return n * 2\ndef triplo(n):\n    return n * 3",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
         "documentation": {}
     },
     {
         "label": "dobro",
         "kind": 2,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
         "peekOfCode": "def dobro(n):\n    return n * 2\ndef triplo(n):\n    return n * 3",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
         "documentation": {}
     },
     {
         "label": "triplo",
         "kind": 2,
-        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
-        "description": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
         "peekOfCode": "def triplo(n):\n    return n * 3",
-        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.uteis",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.modulos_test.uteis",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "peekOfCode": "num = int(input(\"Digite um número: \"))\nfat = numeros.fatorial(num)\ndob = numeros.dobro(num)\ntri = numeros.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "fat",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "peekOfCode": "fat = numeros.fatorial(num)\ndob = numeros.dobro(num)\ntri = numeros.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "dob",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "peekOfCode": "dob = numeros.dobro(num)\ntri = numeros.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "documentation": {}
+    },
+    {
+        "label": "tri",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
+        "peekOfCode": "tri = numeros.triplo(num)\nprint(f\"O fatorial de {num} é {fat}\")\nprint(f\"O dobro de {num} é {dob}\")\nprint(f\"O triplo de {num} é {tri}\")",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula22.pacotes_test.numeros",
         "documentation": {}
     },
     {
@@ -1997,6 +2050,51 @@
         "description": "pythonExercícios.Execícios.Execícios Mundo 2.ex071",
         "peekOfCode": "valor = int(input('Digite quantos Reais você quer sacar: '))\nprint(f'Para {valor}R$, aqui está:')\nwhile True:\n    if valor>=50:\n        valor-=50\n        v50+=1\n    elif valor>=20:\n        valor-=20\n        v20+=1\n    elif valor>=10:",
         "detail": "pythonExercícios.Execícios.Execícios Mundo 2.ex071",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.ex107",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.ex107",
+        "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {p} é {moeda.metade(p)}')\nprint(f'O dobro de {p} é {moeda.dobro(p)}')\nprint(f'Aumentando 10%, temos {moeda.aumentar(p, 10)}')\nprint(f'Reduzindo 13%, temos {moeda.diminuir(p, 13)}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.ex107",
+        "documentation": {}
+    },
+    {
+        "label": "aumentar",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "peekOfCode": "def aumentar(valor, aument):\n    \"\"\"funct aumentar\n    :valor == valoridade do valor a ser aumentado\n    :aument == aumento em porcentagem\n    \"\"\"\n    valor = ((valor/100)*aument)+valor\n    return valor\ndef diminuir(valor, dimin):\n    \"\"\"funct diminuir\n    :valor == valoridade do valor a ser diminuido",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "documentation": {}
+    },
+    {
+        "label": "diminuir",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "peekOfCode": "def diminuir(valor, dimin):\n    \"\"\"funct diminuir\n    :valor == valoridade do valor a ser diminuido\n    :aument == diminuição em porcentagem\n    \"\"\"\n    valor = valor-((valor/100)*dimin)\n    return valor\ndef dobro(valor):\n    \"\"\"funct dobro\n    :valor == valor a ser dobrado",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "documentation": {}
+    },
+    {
+        "label": "dobro",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "peekOfCode": "def dobro(valor):\n    \"\"\"funct dobro\n    :valor == valor a ser dobrado\n    \"\"\"\n    valor *= 2\n    return valor\ndef metade(valor):\n    \"\"\"funct metade\n    :valor == valor a ser reduzido pela metade\n    \"\"\"",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "documentation": {}
+    },
+    {
+        "label": "metade",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "peekOfCode": "def metade(valor):\n    \"\"\"funct metade\n    :valor == valor a ser reduzido pela metade\n    \"\"\"\n    valor /= 2\n    return valor",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
         "documentation": {}
     },
     {
