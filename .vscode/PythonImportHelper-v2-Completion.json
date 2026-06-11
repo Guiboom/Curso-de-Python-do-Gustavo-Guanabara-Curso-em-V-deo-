@@ -2055,46 +2055,73 @@
     {
         "label": "p",
         "kind": 5,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.ex107",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.ex107",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex107",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex107",
         "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {p} é {moeda.metade(p)}')\nprint(f'O dobro de {p} é {moeda.dobro(p)}')\nprint(f'Aumentando 10%, temos {moeda.aumentar(p, 10)}')\nprint(f'Reduzindo 13%, temos {moeda.diminuir(p, 13)}')",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.ex107",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex107",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex108",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex108",
+        "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p))}')\nprint(f'O dobro de {moeda.moeda(p)} é {moeda.moeda(moeda.dobro(p))}')\nprint(f'Aumentando 10%, temos {moeda.moeda(moeda.aumentar(p, 10))}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex108",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex109",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex109",
+        "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {moeda.moeda(p)} é {moeda.metade(p, True)}')\nprint(f'O dobro de {moeda.moeda(p)} é {moeda.dobro(p, True)}')\nprint(f'Aumentando 10%, temos {moeda.aumentar(p, 10, True)}')\nprint(f'Reduzindo 13%, temos {moeda.diminuir(p, 13, True)}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex109",
         "documentation": {}
     },
     {
         "label": "aumentar",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "peekOfCode": "def aumentar(valor, aument):\n    \"\"\"funct aumentar\n    :valor == valoridade do valor a ser aumentado\n    :aument == aumento em porcentagem\n    \"\"\"\n    valor = ((valor/100)*aument)+valor\n    return valor\ndef diminuir(valor, dimin):\n    \"\"\"funct diminuir\n    :valor == valoridade do valor a ser diminuido",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "peekOfCode": "def aumentar(valor, aument, form=False):\n    \"\"\"funct aumentar\n    :valor == valoridade do valor a ser aumentado\n    :aument == aumento em porcentagem\n    \"\"\"\n    valor = ((valor/100)*aument)+valor\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef diminuir(valor, dimin, form=False):",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
         "documentation": {}
     },
     {
         "label": "diminuir",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "peekOfCode": "def diminuir(valor, dimin):\n    \"\"\"funct diminuir\n    :valor == valoridade do valor a ser diminuido\n    :aument == diminuição em porcentagem\n    \"\"\"\n    valor = valor-((valor/100)*dimin)\n    return valor\ndef dobro(valor):\n    \"\"\"funct dobro\n    :valor == valor a ser dobrado",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "peekOfCode": "def diminuir(valor, dimin, form=False):\n    \"\"\"funct diminuir\n    :valor == valoridade do valor a ser diminuido\n    :aument == diminuição em porcentagem\n    \"\"\"\n    valor = valor-((valor/100)*dimin)\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef dobro(valor, form=False):",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
         "documentation": {}
     },
     {
         "label": "dobro",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "peekOfCode": "def dobro(valor):\n    \"\"\"funct dobro\n    :valor == valor a ser dobrado\n    \"\"\"\n    valor *= 2\n    return valor\ndef metade(valor):\n    \"\"\"funct metade\n    :valor == valor a ser reduzido pela metade\n    \"\"\"",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "peekOfCode": "def dobro(valor, form=False):\n    \"\"\"funct dobro\n    :valor == valor a ser dobrado\n    \"\"\"\n    valor *= 2\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef metade(valor, form=False):\n    \"\"\"funct metade",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
         "documentation": {}
     },
     {
         "label": "metade",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
-        "peekOfCode": "def metade(valor):\n    \"\"\"funct metade\n    :valor == valor a ser reduzido pela metade\n    \"\"\"\n    valor /= 2\n    return valor",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "peekOfCode": "def metade(valor, form=False):\n    \"\"\"funct metade\n    :valor == valor a ser reduzido pela metade\n    \"\"\"\n    valor /= 2\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef moeda(valor):\n    \"\"\"funct moeda",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "documentation": {}
+    },
+    {
+        "label": "moeda",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "peekOfCode": "def moeda(valor):\n    \"\"\"funct moeda\n    :valor == valor formatado str\n    \"\"\"\n    valor = f\"R${valor:.2f}\".replace('.', ',')\n    return valor",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
         "documentation": {}
     },
     {
