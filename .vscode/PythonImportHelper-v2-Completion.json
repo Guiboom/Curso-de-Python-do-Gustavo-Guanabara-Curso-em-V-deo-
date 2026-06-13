@@ -119,6 +119,15 @@
         "documentation": {}
     },
     {
+        "label": "dado",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "dado",
+        "description": "dado",
+        "detail": "dado",
+        "documentation": {}
+    },
+    {
         "label": "itemgetter",
         "importPath": "operator",
         "description": "operator",
@@ -2055,91 +2064,109 @@
     {
         "label": "p",
         "kind": 5,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex107",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex107",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex107",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex107",
         "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {p} é {moeda.metade(p)}')\nprint(f'O dobro de {p} é {moeda.dobro(p)}')\nprint(f'Aumentando 10%, temos {moeda.aumentar(p, 10)}')\nprint(f'Reduzindo 13%, temos {moeda.diminuir(p, 13)}')",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex107",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex107",
         "documentation": {}
     },
     {
         "label": "p",
         "kind": 5,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex108",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex108",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex108",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex108",
         "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {moeda.moeda(p)} é {moeda.moeda(moeda.metade(p))}')\nprint(f'O dobro de {moeda.moeda(p)} é {moeda.moeda(moeda.dobro(p))}')\nprint(f'Aumentando 10%, temos {moeda.moeda(moeda.aumentar(p, 10))}')",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex108",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex108",
         "documentation": {}
     },
     {
         "label": "p",
         "kind": 5,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex109",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex109",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex109",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex109",
         "peekOfCode": "p = float(input('Digite o preço: R$'))\nprint(f'A metade de {moeda.moeda(p)} é {moeda.metade(p, True)}')\nprint(f'O dobro de {moeda.moeda(p)} é {moeda.dobro(p, True)}')\nprint(f'Aumentando 10%, temos {moeda.aumentar(p, 10, True)}')\nprint(f'Reduzindo 13%, temos {moeda.diminuir(p, 13, True)}')",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex109",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex109",
         "documentation": {}
     },
     {
         "label": "p",
         "kind": 5,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex110",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex110",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex110",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex110",
         "peekOfCode": "p = float(input('Digite o preço: R$'))\nmoeda.resumo(p, 80, 35)",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.ex110",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.ex110",
         "documentation": {}
     },
     {
         "label": "aumentar",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "peekOfCode": "def aumentar(valor, aument, form=False):\n    \"\"\"funct aumentar\n    :valor == valoridade do valor a ser aumentado\n    :aument == aumento em porcentagem\n    \"\"\"\n    valor = ((valor / 100) * aument) + valor\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef diminuir(valor, dimin, form=False):",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "documentation": {}
     },
     {
         "label": "diminuir",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "peekOfCode": "def diminuir(valor, dimin, form=False):\n    \"\"\"funct diminuir\n    :valor == valoridade do valor a ser diminuido\n    :aument == diminuição em porcentagem\n    \"\"\"\n    valor = valor - ((valor / 100) * dimin)\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef dobro(valor, form=False):",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "documentation": {}
     },
     {
         "label": "dobro",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "peekOfCode": "def dobro(valor, form=False):\n    \"\"\"funct dobro\n    :valor == valor a ser dobrado\n    \"\"\"\n    valor *= 2\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef metade(valor, form=False):\n    \"\"\"funct metade",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "documentation": {}
     },
     {
         "label": "metade",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "peekOfCode": "def metade(valor, form=False):\n    \"\"\"funct metade\n    :valor == valor a ser reduzido pela metade\n    \"\"\"\n    valor /= 2\n    if form == True:\n        valor = moeda(valor)\n    return valor\ndef moeda(valor):\n    \"\"\"funct moeda",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "documentation": {}
     },
     {
         "label": "moeda",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "peekOfCode": "def moeda(valor):\n    \"\"\"funct moeda\n    :valor == valor formatado str\n    \"\"\"\n    valor = f\"R${valor:.2f}\".replace(\".\", \",\")\n    return valor\ndef resumo(valor, aumento, reducao):\n    \"\"\"_summary_\n    Args:\n        valor (str): valor a ser usado como base nos calculos",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "peekOfCode": "def moeda(valor):\n    \"\"\"funct moeda\n    :valor == valor formatado str\n    \"\"\"\n    valor = f\"R${valor:_.2f}\".replace(\".\", \",\").replace(\"_\",\".\")\n    return valor\ndef resumo(valor, aumento, reducao):\n    \"\"\"_summary_\n    Args:\n        valor (str): valor a ser usado como base nos calculos",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
         "documentation": {}
     },
     {
         "label": "resumo",
         "kind": 2,
-        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
-        "peekOfCode": "def resumo(valor, aumento, reducao):\n    \"\"\"_summary_\n    Args:\n        valor (str): valor a ser usado como base nos calculos\n        aumento (str): aumento em %\n        redu (str): redução em %\n    \"\"\"\n    print(f\"-\" * 30)\n    print(\"RESUMO DO VALOR\".center(30))\n    print(f\"-\" * 30)",
-        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex112.moeda",
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "peekOfCode": "def resumo(valor, aumento, reducao):\n    \"\"\"_summary_\n    Args:\n        valor (str): valor a ser usado como base nos calculos\n        aumento (str): aumento em %\n        redu (str): redução em %\n    \"\"\"\n    print(f\"-\" * 35)\n    print(\"RESUMO DO VALOR\".center(35))\n    print(f\"-\" * 35)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex107-ex110.moeda",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex111-ex112.utilidadescev.ex111",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex111-ex112.utilidadescev.ex111",
+        "peekOfCode": "p = float(input('Digite o preço: R$'))\nmoeda.resumo(p, 80, 35)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex111-ex112.utilidadescev.ex111",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex111-ex112.utilidadescev.ex112",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex111-ex112.utilidadescev.ex112",
+        "peekOfCode": "p = dado.leiaDinheiro(\"Digite o preço: R$\")\nmoeda.resumo(p, 35, 22)",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex111-ex112.utilidadescev.ex112",
         "documentation": {}
     },
     {

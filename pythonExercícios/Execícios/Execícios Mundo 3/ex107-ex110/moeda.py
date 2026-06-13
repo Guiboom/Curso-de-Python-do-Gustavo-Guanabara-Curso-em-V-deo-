@@ -47,7 +47,7 @@ def moeda(valor):
     """funct moeda
     :valor == valor formatado str
     """
-    valor = f"R${valor:.2f}".replace(".", ",")
+    valor = f"R${valor:_.2f}".replace(".", ",").replace("_",".")
     return valor
 
 
@@ -59,12 +59,12 @@ def resumo(valor, aumento, reducao):
         aumento (str): aumento em %
         redu (str): redução em %
     """
-    print(f"-" * 30)
-    print("RESUMO DO VALOR".center(30))
-    print(f"-" * 30)
-    print(f"Preço analisado:".ljust(15, " "), "R$ ",{valor})
-    print(f"Dobro do preço:".ljust(15, " "), "R$ ",dobro(valor))
-    print(f"Metade do preço:".ljust(15, " "), "R$ ",metade(valor))
-    print(f"{aumento}% de aumento:".ljust(15, " "), "R$ ")
-    print(f"{reducao}% de redução:".ljust(15, " "), "R$ ")
-    print(f"-" * 30)
+    print(f"-" * 35)
+    print("RESUMO DO VALOR".center(35))
+    print(f"-" * 35)
+    print(f"Preço analisado:".ljust(20), moeda(valor))
+    print(f"Dobro do preço:".ljust(20, " "), dobro(valor, form=True))
+    print(f"Metade do preço:".ljust(20, " "), metade(valor, form=True))
+    print(f"{aumento}% de aumento:".ljust(20, " "), aumentar(valor, aumento, form=True))
+    print(f"{reducao}% de redução:".ljust(20, " "), diminuir(valor, reducao, form=True))
+    print(f"-" * 35)
