@@ -128,6 +128,15 @@
         "documentation": {}
     },
     {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
         "label": "itemgetter",
         "importPath": "operator",
         "description": "operator",
@@ -151,6 +160,15 @@
         "importPath": "pydoc",
         "description": "pydoc",
         "detail": "pydoc",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
         "documentation": {}
     },
     {
@@ -925,6 +943,15 @@
         "description": "pythonExercícios.Aulas.Mundo 3.aula21",
         "peekOfCode": "resp = somar2(3,2,5) #resp passa a ter o mesmo valor de s",
         "detail": "pythonExercícios.Aulas.Mundo 3.aula21",
+        "documentation": {}
+    },
+    {
+        "label": "#n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Aulas.Mundo 3.aula23",
+        "description": "pythonExercícios.Aulas.Mundo 3.aula23",
+        "peekOfCode": "#n = int(input('Número: '))\n#usuário digite: oito\n#outro erro de exceção\n#a=8\n#b=0\n#r=a/b\n#use o try e except\ntry: #tente isso\n    a=int(input('Digite um número: '))\n    b=int(input('Digite outro número: '))",
+        "detail": "pythonExercícios.Aulas.Mundo 3.aula23",
         "documentation": {}
     },
     {
@@ -2170,6 +2197,15 @@
         "documentation": {}
     },
     {
+        "label": "pessoas",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex115.ex115",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex115.ex115",
+        "peekOfCode": "pessoas = list()\ntry:\n    with open(\"pessoas.json\", \"r\") as file:\n        pessoas = json.load(file)\n    print(\"pessoas carregadas!\")\nexcept FileNotFoundError:\n    pessoas = []\n    print(\"Arquivo não encontrado. Uma nova lista será criada ao sair.\")\nexcept json.JSONDecodeError:\n    pessoas = []",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex115.ex115",
+        "documentation": {}
+    },
+    {
         "label": "numerosExtensos",
         "kind": 5,
         "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex072",
@@ -2896,6 +2932,42 @@
         "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
         "peekOfCode": "def pyHelp():\n    AZUL_VERMELHO = '\\033[0;31;44m'\n    VERDE_PRETO = '\\033[0;30;42m'\n    VERMELHO_PADRAO = '\\033[0;31m'\n    AMARELO_PADRAO = '\\033[30;43m'\n    ROXO_BRANCO = '\\033[0;30;45m'\n    C_FIM = '\\033[m'\n    LIMPAR = '\\033[2J\\033[H' \n    text01 = 'SISTEMA DE AJUDA PyHELP'\n    tam_tit = len(text01) + 4",
         "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex106",
+        "documentation": {}
+    },
+    {
+        "label": "leiaInt",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "peekOfCode": "def leiaInt(n=0):\n    \"\"\"Função que funciona de forma semelhante à função input(), mas faz \n        a validação de tipo para aceitar APENAS números inteiros.\n        O programa continuará em laço (loop) até que um valor inteiro válido seja digitado.\n        :return: Retorna o valor inteiro digitado e validado.\"\"\"\n    while True:\n        try:\n            n = int(input(n))\n            return(n)\n        except:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "documentation": {}
+    },
+    {
+        "label": "leiafloat",
+        "kind": 2,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "peekOfCode": "def leiafloat(n=0):\n    \"\"\"Função que funciona de forma semelhante à função input(), mas faz \n        a validação de tipo para aceitar APENAS números reais.\n        O programa continuará em laço (loop) até que um valor real válido seja digitado.\n        :return: Retorna o valor real digitado e validado.\"\"\"\n    while True:\n        try:\n            n = float(input(n))\n            return(n)\n        except:",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "peekOfCode": "n = leiaInt('Digite um número inteiro: ')\nn2 = leiafloat('Digite um número real: ')\nprint(f'Você acabou de digitar o número inteiro {n}, e o numero real {n2}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "peekOfCode": "n2 = leiafloat('Digite um número real: ')\nprint(f'Você acabou de digitar o número inteiro {n}, e o numero real {n2}')",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
         "documentation": {}
     }
 ]
