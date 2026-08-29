@@ -955,6 +955,15 @@
         "documentation": {}
     },
     {
+        "label": "MinhaClasse",
+        "kind": 6,
+        "importPath": "pythonExercícios.Aulas.Mundo 4.aula04",
+        "description": "pythonExercícios.Aulas.Mundo 4.aula04",
+        "peekOfCode": "class MinhaClasse:\n    #Atributor\n    #Métodos\n#Declaração de objetos\nobj=MinhaClasse()",
+        "detail": "pythonExercícios.Aulas.Mundo 4.aula04",
+        "documentation": {}
+    },
+    {
         "label": "nome",
         "kind": 5,
         "importPath": "pythonExercícios.Execícios.Execícios Mundo 1.ex001",
@@ -2968,6 +2977,69 @@
         "description": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
         "peekOfCode": "n2 = leiafloat('Digite um número real: ')\nprint(f'Você acabou de digitar o número inteiro {n}, e o numero real {n2}')",
         "detail": "pythonExercícios.Execícios.Execícios Mundo 3.ex113",
+        "documentation": {}
+    },
+    {
+        "label": "Gafanhoto",
+        "kind": 6,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "class Gafanhoto:\n    def __init__(self):  # Método Construtor\n        # Atributos de Instâncias\n        self.nome = \"\"\n        self.idade = 0\n    # Método de Instância\n    def aniversario(self):\n        self.idade += 1\n    def mensagem(self):\n        return f\"{self.nome} é Gafanhoto(a) e tem {self.idade} anos de idade.\"",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "g1",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "g1 = Gafanhoto()\ng2 = Gafanhoto()\n#Atributos\ng1.nome = \"GG\" \ng1.idade = 70 \n#Métodos\ng1.aniversario() \nprint(g1.mensagem())\n#Atributos\ng2.nome = \"JJ\" ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "g2",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "g2 = Gafanhoto()\n#Atributos\ng1.nome = \"GG\" \ng1.idade = 70 \n#Métodos\ng1.aniversario() \nprint(g1.mensagem())\n#Atributos\ng2.nome = \"JJ\" \ng2.idade = 16 ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "g1.nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "g1.nome = \"GG\" \ng1.idade = 70 \n#Métodos\ng1.aniversario() \nprint(g1.mensagem())\n#Atributos\ng2.nome = \"JJ\" \ng2.idade = 16 \n#Métodos\ng2.aniversario() ",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "g1.idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "g1.idade = 70 \n#Métodos\ng1.aniversario() \nprint(g1.mensagem())\n#Atributos\ng2.nome = \"JJ\" \ng2.idade = 16 \n#Métodos\ng2.aniversario() \nprint(g2.mensagem())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "g2.nome",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "g2.nome = \"JJ\" \ng2.idade = 16 \n#Métodos\ng2.aniversario() \nprint(g2.mensagem())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "g2.idade",
+        "kind": 5,
+        "importPath": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "description": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
+        "peekOfCode": "g2.idade = 16 \n#Métodos\ng2.aniversario() \nprint(g2.mensagem())",
+        "detail": "pythonExercícios.Execícios.Execícios Mundo 4.ex001.ex001",
         "documentation": {}
     }
 ]
