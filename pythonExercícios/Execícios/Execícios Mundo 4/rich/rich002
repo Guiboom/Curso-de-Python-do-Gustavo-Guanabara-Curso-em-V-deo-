@@ -1,0 +1,5 @@
+from rich import print
+from rich.panel import Panel
+
+caixa = Panel(renderable="[white]Esse aqui é um painel[/]:+1:", title="Mensagem" )
+print(caixa)
