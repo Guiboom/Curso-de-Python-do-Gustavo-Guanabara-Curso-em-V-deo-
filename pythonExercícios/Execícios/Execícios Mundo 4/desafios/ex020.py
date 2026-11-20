@@ -2,6 +2,7 @@ class Gamer:
     def __init__(self, nick="gamer", *favgame):
         self.nick = nick
         self.favgame = list(favgame)
+        print(f"Bem-vindo, {self.nick}! Seus jogos favoritos são: {', '.join(self.favgame) if self.favgame else 'Nenhum jogo favorito'}")
         
     def add_game(self, *game):
         self.favgame.extend(game)

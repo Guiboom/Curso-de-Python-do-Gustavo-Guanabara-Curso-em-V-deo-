@@ -27,7 +27,7 @@ class Livro:
             if self.pagina_atual != self.paginas_contem:
                 return(f"Você avançou {paginas_avancar} paginas, e agora está na página {self.pagina_atual}")
             if self.pagina_atual == self.paginas_contem:
-                return f"Você avançou {paginas_avancar} paginas, e agora o livro terminou!"
+                return f"Você avançou {paginas_avancar} paginas, e agora o livro foi terminado!"
             
                 
                 
